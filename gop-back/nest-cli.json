@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "plugins": ["@nestjs/swagger"],
+    "deleteOutDir": true,
+    "assets": [
+      {
+        "include": "infra/mailer/templates/**/*.html",
+        "outDir": "dist"
+      },
+      {
+        "include": "modules/gotenberg/assets/**/*.*",
+        "outDir": "dist"
+      }
+    ],
+    "watchAssets": true
+  }
+}

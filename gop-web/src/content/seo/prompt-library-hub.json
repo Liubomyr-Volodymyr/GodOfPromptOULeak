@@ -1,0 +1,309 @@
+{
+  "_meta": {
+    "url": "https://godofprompt.ai/prompt-library",
+    "purpose": "Library hub page — sits above 19 root cats, 180 subcats, 7 tools, 4,000+ individual prompts. This is the single highest-leverage navigational URL after the homepage.",
+    "head_keywords": [
+      "AI prompt library",
+      "AI prompts library",
+      "ChatGPT prompts library",
+      "Claude prompts",
+      "Midjourney prompts",
+      "Gemini prompts library",
+      "best AI prompts",
+      "prompts for AI tools"
+    ],
+    "voice_notes": [
+      "Bold, direct, opinionated — same brand voice as homepage FAQ.",
+      "Lead with lift-able fact (zero-click + AI citation primed).",
+      "Real numbers: 30,000+ prompts, 19 categories, 7 leading AI tools, 100,000+ users.",
+      "Current model lineup: GPT-5, Claude Opus 4.6, Sonnet 4.5, Gemini 3 Pro, Gemini 3 Flash, Grok 4, DeepSeek R1, Midjourney v7, Nano Banana."
+    ],
+    "_last_reviewed": "2026-05-09"
+  },
+  "head": {
+    "title": "AI Prompt Library — 30,000+ Prompts for ChatGPT, Claude, Gemini & Midjourney",
+    "title_short": "AI Prompt Library — 30,000+ Prompts for ChatGPT, Claude, Gemini & Midjourney",
+    "description": "The curated AI prompt library — 30,000+ prompts across 19 categories for ChatGPT, Claude, Gemini, Midjourney, Grok, DeepSeek and Nano Banana. Trusted by 100,000+ pros.",
+    "canonical": "https://godofprompt.ai/prompt-library",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "og": {
+      "type": "website",
+      "title": "AI Prompt Library — 30,000+ Prompts for ChatGPT, Claude, Gemini & Midjourney",
+      "description": "30,000+ curated AI prompts across 19 categories. Free to copy, structured to ship.",
+      "url": "https://godofprompt.ai/prompt-library",
+      "image_width": 1200,
+      "image_height": 630,
+      "site_name": "God of Prompt"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "AI Prompt Library — 30,000+ Prompts for ChatGPT, Claude, Gemini & Midjourney",
+      "description": "30,000+ curated AI prompts across 19 categories. Free to copy, structured to ship."
+    }
+  },
+  "h1": "The AI Prompt Library",
+  "lede": "30,000+ engineered AI prompts across 19 categories for ChatGPT, Claude, Gemini, Midjourney, Grok, DeepSeek, and Nano Banana. Trusted by 100,000+ marketers, founders, and creators.",
+  "intro_html": "<p><strong>God of Prompt's library is a hand-curated collection of 30,000+ AI prompts engineered for the current model lineup</strong> — 30,000+ prompts across 19 categories, engineered for the current model lineup (GPT-5, Claude Opus 4.6, Gemini 3 Pro, Midjourney v7, Nano Banana). Every prompt encodes role, context, task, constraints, and output format — the structure that consistently produces ship-quality output on the first run.</p><p>Browse by <a href=\"#by-category\">category</a> for use cases, by <a href=\"#by-tool\">tool</a> if you're committed to one model, or by <a href=\"#by-type\">prompt type</a> if you know whether you need text or images.</p>",
+  "body_sections_html": "<h2>What's inside the library</h2><p>30,000+ prompts grouped three ways for fast retrieval:</p><ul><li><strong>By category (19 root + 180 subcategories)</strong> — marketing, sales, SEO, coding, writing, design, photography, business, finance, HR, legal, customer service, education, e-commerce, productivity, real estate, art, architecture, solopreneurs.</li><li><strong>By tool (7 leading AI models)</strong> — ChatGPT, Claude, Gemini, Grok, DeepSeek, Midjourney, Nano Banana. Each tool page lists prompts engineered specifically for that model's strengths.</li><li><strong>By type</strong> — text prompts (for ChatGPT/Claude/Gemini) or image prompts (for Midjourney/Nano Banana). Search and Code prompt types coming soon.</li></ul><h2>How to use any prompt in the library</h2><ol><li>Click into a prompt that matches your task.</li><li>Copy the structured prompt — every prompt is hand-crafted to encode role, context, task, constraints, and output format.</li><li>Replace the bracketed placeholders with your context (your audience, your brand, your inputs).</li><li>Paste into ChatGPT, Claude, Gemini, Midjourney, Nano Banana, or any wrapper (Cursor, Zapier, Make, n8n).</li><li>Run, review, refine. Most prompts in this library produce keeper output on the first generation.</li></ol><h2>Why God of Prompt is different from a free prompt list</h2><p>Free prompt lists online are mostly copy-paste between dozens of similar pages, written by people who never actually ran a business with them. God of Prompt's prompts are <strong>engineered, tested, and updated</strong>:</p><ul><li><strong>Engineered</strong> — each prompt encodes role, context, task, constraints, and a strict output format. The pattern OpenAI and Anthropic recommend in their own documentation.</li><li><strong>Tested</strong> — every prompt is run against real workflows in our own business before it ships. We're not selling theory; we're selling the playbook a working AI business runs on.</li><li><strong>Updated</strong> — when GPT-5, Claude Opus 4.6, Gemini 3, or Midjourney v7 ship, the affected prompt packs are reviewed within days. No stale 2023 prompt lists.</li></ul><h2>Who the library is for</h2><p>30,000+ prompts means something for every workflow that touches AI. The categories cover:</p><ul><li><strong>Marketers and growth teams</strong> — content marketing, SEO, sales, email, social, ads, branding</li><li><strong>Engineers</strong> — coding, debugging, refactoring, code review, agentic IDE workflows</li><li><strong>Solopreneurs and founders</strong> — full-stack business operation, automation, content, customer service</li><li><strong>Designers and creators</strong> — image generation, design briefs, UI/UX, photography, illustration</li><li><strong>Writers and editors</strong> — copywriting, long-form, technical writing, journalism, creative</li><li><strong>Operators in regulated fields</strong> — legal, finance, HR, real estate — with prompts that respect the constraints of those domains</li></ul><h2>Free to copy. Premium for everything.</h2><p>The full library is browsable for free. Every prompt is copyable. 26 free mastery guides and mega-prompts (Claude, Gemini, Grok, Midjourney, Veo, AI Agents, Prompt Engineering, ChatGPT Images, and more) are downloadable with email.</p><p>The <a href=\"/products/premium-complete-ai-bundle\">Complete AI Bundle</a> is the one-time purchase that unlocks every premium asset — Custom GPTs Toolkit, No-Code Automations Bundle, 200+ AI Tools Directory, AI Cheatsheets Collection, ChatGPT Custom Instructions, plus every prompt pack we ship from now on. Lifetime updates, no subscription.</p>",
+  "category_grid": {
+    "section_id": "by-category",
+    "heading": "Browse by category",
+    "items": [
+      {
+        "name": "Marketing",
+        "slug": "marketing",
+        "description": "Content, ads, email, social, branding"
+      },
+      {
+        "name": "Sales",
+        "slug": "sales",
+        "description": "Outreach, proposals, lead gen"
+      },
+      {
+        "name": "SEO",
+        "slug": "seo",
+        "description": "On-page, technical, link building"
+      },
+      {
+        "name": "Coding",
+        "slug": "coding",
+        "description": "Generation, debugging, agentic IDEs"
+      },
+      {
+        "name": "Writing",
+        "slug": "writing",
+        "description": "Copywriting, long-form, editing"
+      },
+      {
+        "name": "Design",
+        "slug": "design",
+        "description": "UI, UX, logos, branding visuals"
+      },
+      {
+        "name": "Photography",
+        "slug": "photography",
+        "description": "Cinematic, product, food, portrait"
+      },
+      {
+        "name": "Architecture",
+        "slug": "architecture",
+        "description": "Interior, exterior, urban, futuristic"
+      },
+      {
+        "name": "Art",
+        "slug": "art",
+        "description": "Illustration, concept, fashion, fantasy"
+      },
+      {
+        "name": "Business",
+        "slug": "business",
+        "description": "Strategy, operations, analytics"
+      },
+      {
+        "name": "Finance",
+        "slug": "finance",
+        "description": "Budgeting, investing, tax, forecasting"
+      },
+      {
+        "name": "Human Resources",
+        "slug": "human-resources",
+        "description": "Hiring, onboarding, performance"
+      },
+      {
+        "name": "Lawyers",
+        "slug": "lawyers",
+        "description": "Contracts, compliance, IP, litigation"
+      },
+      {
+        "name": "Customer Service",
+        "slug": "customer-service",
+        "description": "Support, knowledge bases, retention"
+      },
+      {
+        "name": "E-Commerce",
+        "slug": "e-commerce",
+        "description": "Product copy, listings, automations"
+      },
+      {
+        "name": "Education",
+        "slug": "education",
+        "description": "Teaching, learning, research"
+      },
+      {
+        "name": "Productivity",
+        "slug": "productivity",
+        "description": "Time, task, goals, remote work"
+      },
+      {
+        "name": "Real Estate",
+        "slug": "real-estate",
+        "description": "Listings, marketing, market analysis"
+      },
+      {
+        "name": "Solopreneurs",
+        "slug": "solopreneurs",
+        "description": "One-person business operations"
+      }
+    ]
+  },
+  "tool_grid": {
+    "section_id": "by-tool",
+    "heading": "Browse by AI tool",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt",
+        "description": "GPT-5 prompts for marketing, sales, code, writing"
+      },
+      {
+        "name": "Claude",
+        "slug": "claude",
+        "description": "Opus 4.6 + Sonnet 4.5 — long-form, coding, agents"
+      },
+      {
+        "name": "Gemini",
+        "slug": "gemini",
+        "description": "Gemini 3 Pro/Flash — long-context, multimodal, search"
+      },
+      {
+        "name": "Grok",
+        "slug": "grok",
+        "description": "Real-time X data, less filtered output"
+      },
+      {
+        "name": "DeepSeek",
+        "slug": "deepseek",
+        "description": "R1 reasoning at low cost, open weights"
+      },
+      {
+        "name": "Midjourney",
+        "slug": "midjourney",
+        "description": "v7 + Niji 6 — art-directed image generation"
+      },
+      {
+        "name": "Nano Banana",
+        "slug": "nano-banana",
+        "description": "Gemini-native — photorealism, conversational editing"
+      }
+    ]
+  },
+  "type_grid": {
+    "section_id": "by-type",
+    "heading": "Browse by prompt type",
+    "items": [
+      {
+        "name": "Text Prompts",
+        "slug": "text",
+        "description": "For ChatGPT, Claude, Gemini, Grok, DeepSeek",
+        "live": true
+      },
+      {
+        "name": "Image Prompts",
+        "slug": "image",
+        "description": "For Midjourney, Nano Banana, and other image models",
+        "live": true
+      },
+      {
+        "name": "Code Prompts",
+        "slug": "code",
+        "description": "For ChatGPT, Claude Code, agentic IDEs (coming soon)",
+        "live": false
+      },
+      {
+        "name": "Search Prompts",
+        "slug": "search",
+        "description": "For Perplexity, Gemini Search (coming soon)",
+        "live": false
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-what-library",
+      "question": "What is the God of Prompt AI prompt library?",
+      "answer_html": "<p><strong>The God of Prompt library is a hand-curated collection of 30,000+ AI prompts engineered for the current model lineup</strong> — 30,000+ prompts across 19 categories, organised by tool (ChatGPT, Claude, Gemini, Midjourney, Grok, DeepSeek, Nano Banana) and by type (text, image). Every prompt is engineered, tested in real workflows, and updated as new models ship. Free to browse and copy.</p>"
+    },
+    {
+      "id": "faq-how-organized",
+      "question": "How is the library organised?",
+      "answer_html": "<p>Three ways. <strong>By category</strong> — 19 roots (marketing, sales, SEO, coding, writing, design, photography, art, architecture, business, finance, HR, legal, customer service, e-commerce, education, productivity, real estate, solopreneurs) plus 180 subcategories. <strong>By tool</strong> — one page per AI brand with prompts engineered for that model's strengths. <strong>By type</strong> — text, image, with code and search coming soon. Pick whichever entry point matches how you think about your task.</p>"
+    },
+    {
+      "id": "faq-free",
+      "question": "Is the library free?",
+      "answer_html": "<p><strong>Yes. The full prompt library is free to browse and copy.</strong> 26 mastery guides and mega-prompts are also free to download with an email. The <a href=\"/products/premium-complete-ai-bundle\">Complete AI Bundle</a> is a one-time purchase that adds the Custom GPTs Toolkit, No-Code Automations Bundle, 200+ AI Tools Directory, AI Cheatsheets Collection, and ChatGPT Custom Instructions, with lifetime updates as new packs ship.</p>"
+    },
+    {
+      "id": "faq-which-tool",
+      "question": "Which AI tool should I use these prompts with?",
+      "answer_html": "<p><strong>Most text prompts work across ChatGPT, Claude, and Gemini with minimal edits.</strong> ChatGPT (GPT-5) is the broad workhorse. Claude (Opus 4.6, Sonnet 4.5) is strongest for long-form writing and serious coding. Gemini (3 Pro, 3 Flash) wins for ultra-long context and Search-grounded research. Image prompts use Midjourney v7 or Nano Banana. Each prompt's tool tag tells you what it was tuned for, but the pattern is portable.</p>"
+    },
+    {
+      "id": "faq-how-fast",
+      "question": "How fast can I get useful output?",
+      "answer_html": "<p><strong>Most prompts produce keeper output on the first generation.</strong> No learning curve — copy the prompt, replace the bracketed placeholders with your context, paste into your AI tool of choice, run. Most God of Prompt customers save 15–20 hours in their first week. The prompts are designed to work the first time, not after a 12-step Notion course on prompt engineering.</p>"
+    },
+    {
+      "id": "faq-commercial",
+      "question": "Can I use these prompts for commercial work and client projects?",
+      "answer_html": "<p><strong>Yes. God of Prompt's prompts are licensed for use in your own commercial work and client deliverables.</strong> Paste them into ChatGPT, Claude, Gemini, Midjourney, or any wrapper (Cursor, Zapier, Make, n8n, your own SaaS) and ship the output as part of your business. The prompts themselves cannot be resold or repackaged into a competing prompt library — but the output you create with them is yours.</p>"
+    },
+    {
+      "id": "faq-updated",
+      "question": "Are the prompts kept up to date?",
+      "answer_html": "<p><strong>Yes. The library is actively maintained for the current generation of AI models.</strong> Prompt patterns are tuned for GPT-5, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3 Pro, Gemini 3 Flash, Grok 4, DeepSeek R1, Midjourney v7, and Nano Banana. When a major model ships, the affected packs are reviewed within days. Complete AI Bundle holders get every update for life.</p>"
+    }
+  ],
+  "schema": {
+    "_note": "Emit all three blocks. CollectionPage describes the hub itself; ItemList enumerates the 19 categories so Google can pick a sitelinks carousel; BreadcrumbList for the trail.",
+    "collection_page": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://godofprompt.ai/prompt-library#webpage",
+      "url": "https://godofprompt.ai/prompt-library",
+      "name": "AI Prompt Library — God of Prompt",
+      "description": "30,000+ curated AI prompts across 19 categories for ChatGPT, Claude, Gemini, Midjourney, Grok, DeepSeek and Nano Banana.",
+      "isPartOf": {
+        "@id": "https://godofprompt.ai/#website"
+      },
+      "publisher": {
+        "@id": "https://godofprompt.ai/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://godofprompt.ai/prompt-library#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://godofprompt.ai/prompt-library#categorylist"
+      },
+      "inLanguage": "en-US"
+    },
+    "breadcrumb_list": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://godofprompt.ai/prompt-library#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://godofprompt.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Prompt Library"
+        }
+      ]
+    },
+    "item_list": {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "@id": "https://godofprompt.ai/prompt-library#categorylist",
+      "name": "AI prompt categories",
+      "numberOfItems": 19,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "_note_to_dev": "Build this array at render time from the category_grid.items in this JSON, generating one ListItem per category with @type=Thing + name + url",
+      "itemListElement": []
+    }
+  }
+}

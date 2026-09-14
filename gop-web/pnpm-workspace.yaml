@@ -1,0 +1,16 @@
+# Single-app repo, NOT a monorepo. This file exists for two reasons that
+# pull in opposite directions across pnpm versions:
+#   - older pnpm (what Railway's builder runs) treats ANY pnpm-workspace.yaml
+#     as a workspace root and aborts with "packages field missing or empty"
+#     unless `packages` is present + non-empty → so we declare the root.
+#   - pnpm 10.4+ (local) reads the build-script allow-list from here and, in
+#     --frozen-lockfile mode, hard-fails if a dep needs a build but isn't
+#     approved → so we keep `allowBuilds`.
+# `packages: ['.']` = the repo root is the only package (no sub-packages),
+# which both pnpm lines accept.
+packages:
+  - .
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+  msw: true

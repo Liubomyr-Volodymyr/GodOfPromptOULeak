@@ -1,0 +1,276 @@
+/* =========================================================================
+   PromptTerminal — the prompt block (Figma x-gop-design-system 1266:4591).
+   Bespoke rules Tailwind utilities don't compose cleanly; layout lives as
+   className= in the JSX.
+   ========================================================================= */
+
+/* ── Block + glass surfaces ─────────────────────────────────────────
+ * Block: #1b1a1a r24. overflow stays VISIBLE so the variables rail can
+ * use position:sticky against the page scroll (an overflow:hidden
+ * ancestor would trap sticky inside the block). The decorations that
+ * need clipping to the rounded corners live in their own .decoClip
+ * layer instead. */
+.block {
+  position: relative;
+  border-radius: 24px;
+  background: #1b1a1a;
+}
+
+/* Attached variant (Figma 1552:4643 radii 16/16/0/0): the white taxonomy
+ * strip sits flush below, so the bottom corners square off. */
+.attached,
+.attached .decoClip {
+  border-radius: 16px 16px 0 0;
+}
+
+/* Rounded clip just for the starfield + gold glow — replaces the
+ * block's old overflow:hidden without breaking sticky descendants. */
+.decoClip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.headerPill {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  box-shadow:
+    inset 0 0.6px 2px rgba(255, 255, 255, 0.16),
+    inset 0 27px 76px rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(4px);
+}
+
+.panel {
+  /* no position here — the rail needs position:sticky and a base
+   * position:relative would win on equal specificity. The prompt panel
+   * adds `relative` in JSX for its absolute expand button + fade. */
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  box-shadow:
+    inset 0 0.6px 2px rgba(255, 255, 255, 0.16),
+    inset 0 27px 76px rgba(255, 255, 255, 0.06);
+  /* no backdrop-filter — behind the panel there are only faint stars;
+   * the blur cost (two large composited layers) buys nothing visible. */
+}
+
+/* Gold glow bleeding from the top edge (Figma Rectangle 1000002284:
+ * 561x76 linear gold fade + layer blur 66). The blur is baked into the
+ * gradient falloff — a real filter would rasterize a ~900x380 layer. */
+.topGlow {
+  position: absolute;
+  top: 0;
+  left: -60px;
+  width: 900px;
+  height: 220px;
+  /* Whisper of warmth only — the updated design (1266:5332 zone) keeps
+     yellow pale (~12% alpha); the old 22% wash read too dramatic. */
+  background: radial-gradient(
+    ellipse 55% 90% at 30% 0%,
+    rgba(253, 195, 3, 0.08),
+    rgba(253, 195, 3, 0.025) 55%,
+    transparent 75%
+  );
+  pointer-events: none;
+}
+
+/* ── Action pill — hover-expand grid (ported from PromptBody) ───────
+ * Default: 32px icon-only round button matching the Figma button chassis
+ * (#242223, white/24% stroke, 1px black rim, glossy top sheen).
+ * Hover/focus/copied: grid track expands 0fr → 1fr, label slides in. */
+.actionPill {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 32px 0fr;
+  align-items: center;
+  height: 32px;
+  padding: 0;
+  border-radius: 999px;
+  background: #242223;
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  box-shadow: 0 0 0 1px #000;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    grid-template-columns var(--gop-motion-base) var(--gop-ease-standard),
+    padding var(--gop-motion-base) var(--gop-ease-standard),
+    background var(--gop-motion-fast) var(--gop-ease-standard),
+    box-shadow var(--gop-motion-fast) var(--gop-ease-standard),
+    transform var(--gop-motion-fast) var(--gop-ease-standard);
+}
+
+.actionPill:hover,
+.actionPill:focus-visible,
+.actionPill[data-state="copied"],
+.actionPill[data-state="failed"] {
+  grid-template-columns: 32px 1fr;
+  padding-right: 12px;
+}
+
+.actionLabel {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 0;
+  opacity: 0;
+  transition: opacity var(--gop-motion-base) var(--gop-ease-standard);
+}
+
+.actionPill:hover .actionLabel,
+.actionPill:focus-visible .actionLabel,
+.actionPill[data-state="copied"] .actionLabel,
+.actionPill[data-state="failed"] .actionLabel {
+  opacity: 1;
+}
+
+/* Touch — no hover; pills stay icon-only unless they're in copied/failed. */
+@media (hover: none) {
+  .actionPill:not([data-state="copied"]):not([data-state="failed"]) {
+    grid-template-columns: 32px 0fr;
+    padding-right: 0;
+  }
+  .actionPill:not([data-state="copied"]):not([data-state="failed"]) .actionLabel {
+    opacity: 0;
+  }
+}
+
+/* Glossy top-edge highlight — Figma 516-3947 button system. */
+.actionPill::before {
+  content: '';
+  position: absolute;
+  inset: -8px 0 auto 0;
+  height: 22px;
+  background: radial-gradient(
+    ellipse 80% 100% at 50% 0%,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 255, 255, 0.18) 40%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  filter: blur(6px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.actionPill > * { position: relative; z-index: 1; }
+
+.actionPill:hover {
+  background: #2f2d2e;
+  box-shadow: 0 0 0 1px #000, 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.actionPill:active {
+  transform: translateY(1px);
+}
+.actionPill:active::before { opacity: 0.5; }
+
+.actionPill:focus-visible {
+  outline: 2px solid var(--color-gop-accent-yellow);
+  outline-offset: 2px;
+}
+
+.actionPill[data-state="copied"] {
+  background: var(--color-gop-accent-yellow);
+  color: var(--color-gop-ink);
+  box-shadow: 0 0 0 1px var(--color-gop-accent-yellow);
+  border-color: rgba(255, 255, 255, 0.32);
+}
+
+/* ── Context Inject — the rail footer CTA (Figma 1266:5377 Button) ───
+ * Same primary chassis as the action pills (#242223, white/24 stroke,
+ * 1px black rim, blurred top sheen) but a full-width 44px pill with the
+ * gold Copilot mark + label always visible. */
+.injectButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #242223;
+  color: #f7f7f7;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  box-shadow: 0 0 0 1px #000;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    background var(--gop-motion-fast) var(--gop-ease-standard),
+    box-shadow var(--gop-motion-fast) var(--gop-ease-standard),
+    transform var(--gop-motion-fast) var(--gop-ease-standard);
+}
+.injectButton::before {
+  content: '';
+  position: absolute;
+  inset: -14px 0 auto 0;
+  height: 30px;
+  background: radial-gradient(
+    ellipse 70% 100% at 50% 0%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.16) 45%,
+    rgba(255, 255, 255, 0) 72%
+  );
+  filter: blur(8px);
+  pointer-events: none;
+  z-index: 0;
+}
+.injectButton > * { position: relative; z-index: 1; }
+.injectButton:hover {
+  background: #2f2d2e;
+  box-shadow: 0 0 0 1px #000, 0 8px 20px rgba(0, 0, 0, 0.32);
+}
+.injectButton:active { transform: translateY(1px); }
+.injectButton:active::before { opacity: 0.5; }
+.injectButton:focus-visible {
+  outline: 2px solid var(--color-gop-accent-yellow);
+  outline-offset: 2px;
+}
+
+/* ── Body panel — fixed-height scroll area (Figma panel: 461 − 2×24
+ * padding). No expand/collapse: the scrollbar is the affordance, and
+ * smooth scrolling carries the rail's scroll-to-variable jumps. ────── */
+.bodyClip {
+  position: relative;
+  max-height: 413px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+}
+.bodyClip::-webkit-scrollbar { width: 6px; }
+.bodyClip::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.bodyClip::-webkit-scrollbar-track { background: transparent; }
+
+/* ── Variable field — floating label (Figma textfield 660:16272) ────
+ * 44px, r12, white/4% fill+stroke; focus swaps the stroke to gold.
+ * Label uses the peer pattern in JSX: hidden until :focus or filled. */
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 44px;
+  padding: 4px 16px;
+  border-radius: var(--radius-gop-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: border-color var(--gop-motion-fast) var(--gop-ease-standard);
+  cursor: text;
+}
+.field:focus-within {
+  border-color: var(--color-gop-accent-yellow);
+}

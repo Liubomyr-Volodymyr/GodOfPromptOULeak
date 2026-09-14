@@ -1,0 +1,2767 @@
+{
+ "total": 460,
+ "code": 236,
+ "text": 224,
+ "results": [
+  {
+   "id": "892fd171-19d1-4d73-a172-b517ff93659e",
+   "slug": "draft-documentation-from-vibe-code",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "179eac15-4953-4b50-b6c2-cfec52798e35",
+   "slug": "build-full-stack-software-architectures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "81fff4d5-a15b-4f69-b2c0-f99781780ca6",
+   "slug": "analyze-vibe-code-quality",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "96c6e3ee-8818-4efb-aa15-48ac308cc716",
+   "slug": "reduce-ai-hallucinations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "cdf2d9a7-f346-4d6c-a2aa-0d4e6efb380f",
+   "slug": "generate-user-testing-strategy",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b93f43a7-248d-4044-b517-defa9d9b463c",
+   "slug": "nestjs-api-developer-guide-2",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "437ad692-3614-4b15-a9ff-a6429c6891db",
+   "slug": "nestjs-api-developer-guide",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4180260a-900c-4fc8-8ea9-6163b071b512",
+   "slug": "build-document-template-studios",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "9c1524a3-efc0-47bf-9222-5327f0bab859",
+   "slug": "build-performance-amd-progress-trackers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c305b269-c5bb-4940-959b-06152aca1a20",
+   "slug": "build-dual-sided-marketplace-platforms",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d3814502-0603-4587-bb52-a8a610f3a7da",
+   "slug": "build-real-products",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0e4a996f-82a5-43b9-b1af-fc55c9d98c1b",
+   "slug": "build-e-commerce-stores",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "81333840-f230-4fd7-8a8c-31670de551c2",
+   "slug": "develop-ai-content-generators",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e7cf1b96-53fd-40e1-8545-3b85a6917aef",
+   "slug": "build-secure-validation-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a1f01316-d44f-4cd4-9ad0-8b9bd1ec1868",
+   "slug": "build-customer-support-chatbots",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5d5d13d9-0772-4da0-8575-db699b96e880",
+   "slug": "convert-mobile-apps-to-web-based-apps",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ef9b9ddb-c928-4428-9164-a17686ea3f5a",
+   "slug": "build-testing-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a41d62c8-b5d0-4a20-a58d-af849b750c6a",
+   "slug": "convert-websites-to-mobile-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e1b9bc07-25d8-4816-b91d-1601684c4d33",
+   "slug": "build-data-analytics-platforms",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6351d2dc-3cb3-470f-b3cb-58e807d01316",
+   "slug": "build-production-ready-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "cf451ef5-1c3e-4693-9e0d-e07adbc3034b",
+   "slug": "develop-glossary-builder-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3351283f-6b30-4828-b442-d4c895a919d5",
+   "slug": "build-project-management-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "9634a8a6-9812-4323-ad5b-090ace7da253",
+   "slug": "build-slideshow-creation-tool",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "28c5d60e-8886-4a61-b248-aeb108b52469",
+   "slug": "build-workflow-automation-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "555ba391-490e-4886-b161-e64fa17d0e8e",
+   "slug": "develop-form-builder-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f6e94f9f-14cb-4411-8c10-24239f2a92a6",
+   "slug": "build-file-conversion-tools",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f03859db-97a2-423e-b863-2e4a8bd30b1d",
+   "slug": "design-style-guides",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "2a47ae8d-b2dc-4e75-9430-edc730fe92cf",
+   "slug": "build-testing-command-centers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "82ce307c-91f0-4ba8-8a49-e88787be5283",
+   "slug": "build-custom-crm-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "48c431e8-7c32-495a-92bc-3f65cc34e739",
+   "slug": "build-product-mockups",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "59af07e6-892a-4b25-bb1d-d57ff9ab4b56",
+   "slug": "build-product-prototypes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "28913678-5a15-4ea2-9610-38aab28fab09",
+   "slug": "design-admin-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6a6fdd3d-7578-443f-82d0-840c85db4fc1",
+   "slug": "build-task-managers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8274df5b-d5c2-4cd5-8270-060090a8e6f0",
+   "slug": "build-authentication-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "13eedc62-875b-49e1-886a-4142f6f7b5dc",
+   "slug": "build-booking-platforms",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "86eedd44-707e-4544-9bf8-81d4fd35a659",
+   "slug": "build-checkout-pages",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "eb42a605-dd62-4ab5-9a50-6b2e85d0b3f6",
+   "slug": "build-tracking-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "fd34adbc-3a28-4393-8c2c-d56f2daba961",
+   "slug": "build-scheduling-tools",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "2f71facd-80b2-40bf-9186-1502e9ebf0f3",
+   "slug": "build-real-time-monitoring-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7271f966-469b-4564-a5ed-da4788b071d6",
+   "slug": "build-real-time-notification-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "877e09b2-9b0f-491d-8d0e-7bb6c5343ce1",
+   "slug": "build-realistic-simulators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d89a6b50-16fb-4343-a7e8-740b728f1821",
+   "slug": "build-calculator-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "1a9d0ae3-62b8-4988-bfec-5dbb263a4149",
+   "slug": "build-gamified-task-management- apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "492c9da5-5030-41c7-b8b5-cf41428b1583",
+   "slug": "enhance-interface-designs",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "64a3ab2a-bcee-41e0-8f05-a3e109467847",
+   "slug": "develop-unique-widgets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f0dec5ea-56c8-4196-91b2-dd3c615b5b13",
+   "slug": "build-custom-portals",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "024a3391-7ce5-471e-9899-f29e75301802",
+   "slug": "build-branding-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "def7f977-62cd-4579-9665-96c273b0d10c",
+   "slug": "build-diet-tracking-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "1692a1ac-e593-4de2-9b29-18b6594e8cc9",
+   "slug": "build-unit-converters",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "989ac1d6-84cb-4d40-82e4-5cfdae3394d7",
+   "slug": "develop-browser-extensions",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "722e51f6-606d-4f6d-9eec-f0870790c47f",
+   "slug": "build-vocabulary-learning-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bc573ac4-290e-4857-8a16-605fc9f65f49",
+   "slug": "develop-google-drive-add-ons",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "673fbb1b-468b-480c-ad69-92c7952ddce7",
+   "slug": "build-profession-specific-kanban-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3b17aeb1-bed1-47b3-8db5-d54633f9f3a2",
+   "slug": "build-habit-tracking-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "03762d7c-c343-47cc-afc6-d5b5b7921b24",
+   "slug": "develop-shopify-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "99c517ce-2cbc-4f1c-8028-3bdb0c17296c",
+   "slug": "build-notion-widgets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "18ea938a-2f5b-4371-b028-f1dbdd87146f",
+   "slug": "develop-wordpress-plugins",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "5ede7659-d3d4-4b3c-9491-619e4256f0ee",
+   "slug": "build-inventory-management-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f0f7a3cf-9682-4e70-ab86-1efdf8b9b8cf",
+   "slug": "develop-gmail-add-ons",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "15cedf25-8797-4fcd-bedd-9748d0f48923",
+   "slug": "develop-placeholder-content-generators",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "389679e9-c06b-4c9b-bfe8-5db118a11c6b",
+   "slug": "build-portfolio-websites",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6ad99f7b-6ed2-4008-85b1-c16ada4533bb",
+   "slug": "develop-virtual-office-platforms",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "44b17bda-9937-475b-a323-dd31970a3f70",
+   "slug": "build-typing-tutor-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0e3e417c-f867-45e4-80b8-4f6fe174c983",
+   "slug": "build-interactive-countdown-timers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7ad167f1-28a5-4a02-b913-7f4d012fc3ee",
+   "slug": "build-minimalist-company-websites",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8440a519-0215-45ed-822a-83cb7711fe83",
+   "slug": "design-color-wheels",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "ca7c67f2-4065-4ff2-8127-9466b85e11f8",
+   "slug": "build-marketing-meme-designers",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4a5c53b6-00f4-48a2-b861-48c74935ca50",
+   "slug": "design-animated-screensavers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "9107df61-a97d-4d7d-82b3-f3a31076c410",
+   "slug": "build-journaling-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f51d334e-2d75-4257-b7f9-380d0621282e",
+   "slug": "build-planner-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d984aaf2-e421-45c0-b616-34a2a6192360",
+   "slug": "build-customer-reward-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "81e272a5-2ce6-4469-8eb7-9665253589f3",
+   "slug": "build-custom-versions-of-any-platform",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f1e4f2e6-791c-4fb3-abe8-68a40263312a",
+   "slug": "build-brand-mention-monitoring-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "2317ffb8-2b7d-4705-b0b9-43c8578b665b",
+   "slug": "build-viral-word-games",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "fd3b6eb4-b2d8-4f4e-b5ea-326c250b3b50",
+   "slug": "develop-travel-itinerary-trackers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3167105e-d1ce-4fa2-8500-4f476bc47d82",
+   "slug": "develop-css-gradient-makers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "aef4fb76-d11c-422b-aff2-771d4de39b51",
+   "slug": "build-mock-dataset-generators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6727c412-c4fa-41d2-8f91-1a33db7fde53",
+   "slug": "build-random-code-generators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6edde413-aec1-406e-9f63-9c18c8600f9e",
+   "slug": "build-task-priority-rankers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a1a19352-49af-4395-bc87-6d0470200361",
+   "slug": "create-list-manipulation-tools",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c506e507-a37b-408d-8665-64e0cdd93bd1",
+   "slug": "build-password-management-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "43685293-645d-4969-b03e-b5f8274e2af4",
+   "slug": "build-mortgage-calculators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "789dd808-a5ba-4684-b43b-a92fb3be1f86",
+   "slug": "build-industry-specific-wordpress-themes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "61b7b00a-2620-451e-a352-aef47f533461",
+   "slug": "develop-quiz-creation-tool",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a42eaa9f-ce2a-4245-99b8-d14f47e603f5",
+   "slug": "build-secure-password-generators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "722cb379-edd2-424c-ab71-6589a70384ce",
+   "slug": "develop-dice-rolling-simulators",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5b7ff0c1-6b98-4791-a561-a7aaa2c72771",
+   "slug": "build-qr-code-creators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f4252b37-3102-4126-bfbd-83b02ae9aea1",
+   "slug": "build-password-strength-analyzers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "99a38043-9ca2-4fc2-804a-be0e556e9b3a",
+   "slug": "build-goal-tracking-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6a7d72d4-2f7f-4ddc-a299-6f465128369c",
+   "slug": "build-poll-creation-tool",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "38223a4b-b80b-4163-8215-5e1836c8bfa5",
+   "slug": "modernize-user-interface-modernizers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e98d227d-1977-4468-81de-a2da25361c5e",
+   "slug": "develop-e-commerce-cro-tool",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b43b42a5-cca2-4c64-9a2a-8b0a9d415dd3",
+   "slug": "build-reminder-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7296486a-8118-4ec2-ad63-deaf6413933e",
+   "slug": "develop-survey-builders",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "487d81f9-a3fc-4b2c-b10b-8af8af63d8fe",
+   "slug": "develop-kids-stories-generator",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "37f901f9-d45b-4185-a98b-d6da414c3000",
+   "slug": "build-marketing-outreach-trackers-2",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b6895b4c-dd6d-49d0-aacd-aa2c6a1b8c95",
+   "slug": "develop-private-messaging-platforms",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ce827822-5beb-4333-a5ac-8aee4a8a6728",
+   "slug": "develop-certificate-designer",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "92cecb59-5111-4a63-b436-81cde90002a6",
+   "slug": "build-networking-contacts-management-tools",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4b879454-c56c-4449-abf9-461e0879c38f",
+   "slug": "build-job-application-trackers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "ce1492f8-90ff-420f-9c36-01af47ef9ddc",
+   "slug": "build-interview-preparation-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "ce97f71a-81bb-4e03-8a27-3570f9d05759",
+   "slug": "develop-fat loss-trackers",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e5ed3861-7cfe-47be-ada2-ff0ec0d1c887",
+   "slug": "build-industry-specific-resume-builders",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bda6eb48-b9bf-4d09-9a84-07f3ffdbe10c",
+   "slug": "develop-medication-reminder-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8eb6aefa-737d-45d9-907e-8f09ed3a6370",
+   "slug": "build-staff-punctuality-trackers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b0e63dbc-1024-4622-a801-a14534fe2a29",
+   "slug": "build-hydration-trackers",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "70714f3a-22c8-4839-9dbf-8081d4adb62a",
+   "slug": "build-investment-portfolio-trackers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0a6e68ff-7030-453d-9069-0c1ccd75dff1",
+   "slug": "build-distraction-blocking-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "140b963e-8752-4003-a2d4-4c0626c148d8",
+   "slug": "build-industry-specific-invoice-generators",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6a520abf-21aa-48f7-b7de-179744ac5a62",
+   "slug": "build-meeting-management-platforms",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "ea989450-1cd3-4bf4-b99d-765ddd040067",
+   "slug": "build-minimalist-project-management-dashboards",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "075e660a-c385-47c0-9d95-fee8adc2887e",
+   "slug": "build-file-compression-apps",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "80ee8ee3-f1bd-4db0-a4fd-7644b3b27828",
+   "slug": "build-contract-validations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7dd96def-6ac7-44ca-9649-a817b1f7dd51",
+   "slug": "build-universal-booking-platforms",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c12f0246-2010-4e3a-9d43-a0352b34b8d6",
+   "slug": "design-enterprise-rbac-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "221b7379-6e9e-43e9-a511-318efb12a3b6",
+   "slug": "clean-up-vibe-code",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "07df2635-ea86-49fc-b2e3-c18d75ab4cbb",
+   "slug": "design-landing-pages",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "735a0da8-b60f-4d0e-bef0-71aa1afe992f",
+   "slug": "secure-vibe-coded-app",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d90af337-b9a2-4bdf-a1b3-2a29daad34ba",
+   "slug": "generate-maximalist-website",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0bc4fe32-d326-459b-bec7-899b3d781a44",
+   "slug": "create-technical-blueprint",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d6422342-4ee6-4a79-98e3-a2ddcc2e0fdc",
+   "slug": "create-software-architecture",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c08bf081-f0e8-445a-9413-ab850887d43f",
+   "slug": "test-software-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "86cf878f-c0b7-412c-91c9-796303335aea",
+   "slug": "analyze-performance-bottlenecks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4c66e118-01b4-4953-832e-e94ee18a6af4",
+   "slug": "generate-code-test-suites",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "320805ba-f162-4804-bd10-e908a8c71305",
+   "slug": "prepare-llm-for-coding-tasks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "43087b1f-5a09-44e9-970d-c6e7e8588191",
+   "slug": "build-ui-component-libraries",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "41daf7d1-8d3a-4bb2-9905-eb0e7d35d08b",
+   "slug": "generate-production-ready-n8n-workflows",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "32a6adb3-8396-4222-ad55-78110adbd39d",
+   "slug": "build-scalable-component",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b652039b-4358-451c-85ab-e43f5dd38503",
+   "slug": "implement-specific-code-changes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "2ad2cc56-6a65-4439-8fa0-50e344624a42",
+   "slug": "build-form-validations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "559b6561-2b3a-4a9a-a698-a02052211e06",
+   "slug": "develop-chat-widgets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "fdf6b18b-8ec4-4ac1-9a68-a198e3d380fe",
+   "slug": "implement-sticky-header",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e9537fea-8700-48a6-9d44-76cbaad05052",
+   "slug": "design-filter-systems",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "64aa8dca-18f1-40cb-b7ed-e8330c951302",
+   "slug": "build-modal-popups",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8098a133-c9ad-4e81-90c2-fc374d36f348",
+   "slug": "optimize-codebase",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b8e7ac34-40a3-4c7c-b4c7-ac2b4859b4d2",
+   "slug": "build-webhook-handler",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8f537771-9cb1-4c30-b878-106cdcb92bc1",
+   "slug": "perform-api-integrations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "796c354a-0baa-4f02-a6d6-88cb3022ce63",
+   "slug": "build-carousel-sliders",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0dd385bd-5588-4987-a215-ca1a144bd93f",
+   "slug": "develop-deployment-security-strategy",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "fd72b029-1448-4dbe-8847-371a5183a3a3",
+   "slug": "improve-coding-prompts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e474a72d-b92b-4f5b-96e3-c574da3b828d",
+   "slug": "implement-dark-modes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "48925224-a269-4af0-9f3f-ce26f1d4d09a",
+   "slug": "execute-emergency-rollbacks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6906e2ac-5bbe-4a28-ae8b-7af84a31581a",
+   "slug": "design-signup-forms",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6f8642f2-d4db-4ea2-ac04-e0c8fb37b87d",
+   "slug": "build-image-galleries",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f277a175-7d9b-4d6c-bcbb-7975ab85bf18",
+   "slug": "generate-css-stylesheets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "30d018a7-6c85-43af-88aa-c02e1bf31d05",
+   "slug": "solve-css-layout-issues",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e0254c8f-01f5-41d1-80b3-18fd7dc53a68",
+   "slug": "design-contact-forms",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "16146de9-3c27-4e04-aa87-0a8db494edfa",
+   "slug": "design-real-time-validation-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c9ff697f-5d40-4af7-828b-83e5563e6363",
+   "slug": "develop-responsive-ui",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4101d18f-aa76-4103-b054-76a3943c0bb7",
+   "slug": "build-responsive-navigation-menus",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4b8271ac-869e-431a-b6bd-adc53906dc06",
+   "slug": "develop-reusable-react-errorboundaries-2",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "897a05bd-11e2-4fc7-a2db-eefa93f9f238",
+   "slug": "design-jwt-security-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "eb74ca15-12ed-460f-83b5-a69620bf2158",
+   "slug": "design-jwt-architecture",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c4c2c069-7fbb-4dee-b3ab-22f5059b93ab",
+   "slug": "design-rate-limiting-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "aafdcefd-efb7-457e-a30e-2e4653925549",
+   "slug": "design-rbac-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6314b903-d2cd-4d71-b69e-0a3d2fc871ec",
+   "slug": "develop-webhook-integrations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8808d733-d6dc-4c94-a33f-e562b2020ca8",
+   "slug": "design-ai-feedback-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "1f8ade9b-71e4-47d7-9daf-3c53b9f51a57",
+   "slug": "design-ai-interaction-logs",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "eedc6f2d-6171-4cd5-867e-76fadeab2df0",
+   "slug": "build-zustand-store",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "cf6f9842-03fb-42b5-8e18-c1c8918f4ffa",
+   "slug": "develop-optimistic-ui-patterns",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4b1176a0-d290-4f3e-8b72-75bab484e58c",
+   "slug": "design-collaborative-editing-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6556623d-9794-4d73-ae60-e247b3b39264",
+   "slug": "build-task-management-apis",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0be34c05-9031-4734-89b4-a9444cc2f28d",
+   "slug": "build-fullstack-application-scaffold",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "5f0749f2-282b-40c9-824f-cde690492712",
+   "slug": "create-automation-use-cases",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ae07bd2f-b679-4e8d-8dff-00dce420dc85",
+   "slug": "build-filtering-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f19051ea-6700-458a-ae17-e12bf52a1a65",
+   "slug": "recommend-integration-options",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0654ce21-efc1-4c4b-9b9e-9ee0a656ae23",
+   "slug": "generate-database-schemas",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "388c625c-9fa7-4338-baf7-fcdee8d77769",
+   "slug": "design-permission-structures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4c0c3a85-bece-4c7d-9668-efb3c732b4fd",
+   "slug": "design-data-collection-forms",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "449012d4-2ad8-4fae-8a07-5894967159b4",
+   "slug": "optimize-app-logic-flows",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "32fb06ec-0b77-4f3b-b0e6-84a956dfa950",
+   "slug": "create-testing-checklists",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c1c4df70-84d5-4af7-8d70-57391aff9061",
+   "slug": "draft-app-requirements",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "976be146-577c-4d77-8fa6-4fcdef6aba1d",
+   "slug": "recommend-no-code-platform",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "dbebdb90-d0b6-4dea-b510-1a4d620201de",
+   "slug": "design-app-interfaces",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4de404e2-64a8-4398-8a61-5918c9097025",
+   "slug": "generate-app-tutorials",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "8e662c8e-bfc8-4154-939e-f0bb14193fd0",
+   "slug": "optimize-regex-performance",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "1477c8d8-045a-43ff-b1dc-53cff7c904a1",
+   "slug": "optimize-application-startup-times",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "41984329-fc1d-4c45-8725-7f6be374b0c9",
+   "slug": "detect-hidden-side-effects",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "8c08ad5c-7114-4331-a4fc-c64a4f4880a4",
+   "slug": "optimize-event-handlers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "9aef95f0-5b3e-4dd5-90b7-d0049960302b",
+   "slug": "improve-thread-pool-configurations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "38c06890-9b10-4ae1-a9bf-42e4356c2255",
+   "slug": "analyze-compiler-configurations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "afcdfb9e-1f39-4468-aade-cbe270d142be",
+   "slug": "analyze-code-cohesion",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c88c9115-3c34-4738-bb1d-984ea9cf432b",
+   "slug": "analyze-code-performance-bottlenecks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "fe58cac5-91c7-493c-a04d-19af6f18216d",
+   "slug": "eliminate-unused-import",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d15a7c80-0489-4569-be78-256b8a54944a",
+   "slug": "analyze-loop-optimization-opportunities",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a9f275f5-e6ed-43ee-b253-4d595a9ac6c7",
+   "slug": "eliminate-redundant-codes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "58163092-b2cc-4c9d-8812-4694dc4a918e",
+   "slug": "improve-memory-usage",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8bc166a6-43ed-4822-96b6-89edd9fff359",
+   "slug": "Enhance Code Readability",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "224b564a-f357-4952-9ef1-1c101a881f74",
+   "slug": "optimize-caching-implementations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5e7017ad-5b5d-4425-9b4a-e5c2c0fa0c85",
+   "slug": "analyze-sql-query-performances",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ae152e5d-5396-4bae-b9ee-81535b95cadb",
+   "slug": "optimize-file-io-operations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e15d44d6-d16c-4a38-9a98-497302cf69f3",
+   "slug": "enhance-data-structure-performances",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "22f9a432-51eb-4d20-a147-5e7186252849",
+   "slug": "refactor-complex-conditional-codes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c00886a1-40a7-4349-b5a6-49a968e11c2a",
+   "slug": "analyze-dead-codebases",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "99aa351a-df72-4d59-a466-d47cddb72a99",
+   "slug": "optimize-database-query",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "140f0adc-167e-44a2-80c2-484f6d7af1f0",
+   "slug": "detect-race-condition",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0fb03860-e9cd-499b-ab3e-66a24af64fda",
+   "slug": "detect-duplicate-functions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "726565ae-fd4d-4049-8bfe-71d6aa074459",
+   "slug": "detect-inefficient-recursion",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d80cb216-2b0a-4440-aae5-4e0db45efb63",
+   "slug": "optimize-build-configurations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "524b4866-d195-4b31-8262-a10bd9dee60f",
+   "slug": "simplify-complex-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a9b08dcf-a943-4e0e-8c14-ce2ffc358048",
+   "slug": "perform-dependency-analysis",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "11348688-7f86-4dfd-b477-a7b49b6e03ab",
+   "slug": "analyze-design-architecture",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c4030da9-36f8-457d-8e4c-24054c4407af",
+   "slug": "resolve-concurrency-issue",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b6cd883f-d3db-42de-bb26-b2196c2cd930",
+   "slug": "analyze-error-handling-patterns",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "25b4a239-c818-4e8c-a3bd-ac3abcec0d26",
+   "slug": "optimize-network-performance",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "edacf16f-94cc-4b75-8386-13197ade8a02",
+   "slug": "optimize-rendering-bottlenecks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0dbe70a6-1c9f-47a7-827f-a7e40ee66679",
+   "slug": "design-kubernetes-healthcheck-endpoints",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e1323170-080f-4df3-8d26-446494e94571",
+   "slug": "implement-data-encryption",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7ec9f6d5-0b0b-4df4-a48e-5dd2a5923a8a",
+   "slug": "design-search-functionality",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b17958a8-abf9-4184-b5d2-eec143b27baf",
+   "slug": "analyze-memory-leaks",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e93d9148-29bb-4101-8c3f-0809b46ef6a7",
+   "slug": "design-integration-tests",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6c885fe0-1b84-40b8-b86e-021ee902b0bb",
+   "slug": "develop-enterprise-software",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "1f2914a1-6319-4834-938b-cfe8aeac76e4",
+   "slug": "plan-typescript-migrations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5d0a4e5c-e3b7-4cf9-8306-7610014d46ff",
+   "slug": "design-cicd-pipeline",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7d0b76e0-a8f3-490e-af35-4cb7ab112ad6",
+   "slug": "develop-documentation-structures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "8db594bd-8301-4f6c-9c51-aba926763cd8",
+   "slug": "design-email-service-architectures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7710ffbf-8796-4873-b5df-3f840b72306a",
+   "slug": "develop-pre-commit-hook-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "672cf471-eba2-4626-9749-6693bff1458d",
+   "slug": "develop-docker-containerizations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e45d9823-44ca-42c4-8998-bcb143f2b92b",
+   "slug": "create-sql-migrations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d0eb5522-a9ff-45e0-862a-c0bf17cde38c",
+   "slug": "create-contact-form",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "23bd4a89-7238-472a-930d-e9578ca86de0",
+   "slug": "automate-code-quality-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e42ff0c9-3955-4bcf-8a41-29a674c61415",
+   "slug": "design-administrative-dashboard",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "09ee61b7-6972-47bb-a852-4942a43a9765",
+   "slug": "build-rest-api-endpoints",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3ce347ef-0b30-4876-a04f-461ff75145fb",
+   "slug": "write-data-parsing-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "754ddc46-d239-44e5-acab-32e9436f5d8f",
+   "slug": "generate-ai-webapp-setups",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "467d55f2-05dc-4792-b0bb-07352563cd42",
+   "slug": "design-csv-import-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e36e2761-c9a0-400d-b610-3eafa14deff7",
+   "slug": "master-loop-patterns",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "96f5a758-e1e3-427e-9464-809e61671e82",
+   "slug": "explain-code-output",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "41f3785b-710b-4167-a7a2-2164f6e87a0e",
+   "slug": "implement-logging-practices",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "56d50505-5bf4-4842-b50d-d1aefb424b8a",
+   "slug": "write-string-formatting-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7408b47d-997a-4f69-8c9a-de3f34797833",
+   "slug": "generate-shell-scripts",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3f816d3e-cad1-4250-addd-30fcd8aa1ac2",
+   "slug": "generate-crud-functions",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4cfc60ee-2d43-4a83-8740-ddaae472c373",
+   "slug": "convert-json-structures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "69dde540-de27-4fd9-a3c9-03337fd4943e",
+   "slug": "write-reusable-code-blocks",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d84f7718-b7af-403b-822b-3d4fcbc0b654",
+   "slug": "design-restful-api-endpoints",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a7431301-8cba-4e2b-86a4-8a1b53933b3f",
+   "slug": "create-function-templates",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "984ca8f1-1b4d-4af8-8f98-4c5c14a0446f",
+   "slug": "develop-event-handlers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b01a23f0-f419-4c25-a2ae-f082d42aaabf",
+   "slug": "develop-color-palettes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f0a0e9cd-f972-4309-a321-f6f4fa4705a4",
+   "slug": "analyze-api-integration-roadmaps",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0a8d2b79-14a2-44d3-b0a8-fcabf405e573",
+   "slug": "design-bug-report-templates",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "3987f6fd-476b-431c-991c-02a1dadd81ea",
+   "slug": "format-code-snippets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "34ed1a54-93da-44e7-8d51-242843df22c7",
+   "slug": "generate-configuration-files",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c663ff25-4540-4ffd-b70e-0098b468b5e7",
+   "slug": "write-setup-instructions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "96d8b00e-8cf0-4add-b67d-5ca2c40dafed",
+   "slug": "write-version-changelog",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "854a732d-4aee-4124-9e6b-83fcbf73a1ba",
+   "slug": "outline-folder-structures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "aaa5496e-c968-4d43-9187-20463215788d",
+   "slug": "label-ui-elements",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "cf15de99-29a9-46ef-8c4e-eb8ce5bc878c",
+   "slug": "draft-release-notes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "89addceb-45d0-4218-8205-58ff9931a525",
+   "slug": "recommend-naming-conventions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0548a0f4-bbd0-43c5-b3e5-92da192c05c3",
+   "slug": "explain-input-and-output-handlings",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "2c3f5437-dc25-4acb-8d6e-4cde310a0f03",
+   "slug": "generate-platform-native-ui-layouts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e612fc61-c812-4fde-a72b-d8dbb6ea09c1",
+   "slug": "explain-version-control-basics",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e0960f75-4fe3-4bdd-bfcd-e3c2df8bac7d",
+   "slug": "create-app-wireframes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "11ff7d86-de3f-425e-9bc8-feee31f7d696",
+   "slug": "summarize-technical-documentations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "73c26593-0327-44ec-96e0-b2323db257b2",
+   "slug": "explain-library-usage",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "758b7525-2335-4a6e-8680-6834b890cc0b",
+   "slug": "identify-common-programming-mistakes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "bdbf0a4d-cc52-43a1-8603-5a5aa985080a",
+   "slug": "create-component-inventories",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0999f7a1-3068-4e8e-9401-b31796e0870c",
+   "slug": "generate-code-comments",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7e239cca-d31e-4510-a48a-940c8908ac7d",
+   "slug": "explain-control-structures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f33793ad-517a-4cb9-9cdd-0b147f16e87f",
+   "slug": "explain-debugging-steps",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "8e01534e-6fad-4b6c-acf6-3330e070637a",
+   "slug": "analyze-complex-functions",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "12b89b01-e36f-40d2-8442-e0ef8c7483e3",
+   "slug": "review-students-code",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e42deabc-1d85-45cb-ad0f-fc66a52ed258",
+   "slug": "explain-algorithm-basics",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d9e0241e-ecb9-40c5-9647-1abbb348c7e5",
+   "slug": "convert-pseudocode-to-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3d4ed4da-3d89-471e-98bf-186a031234aa",
+   "slug": "generate-coding-project-ideas",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "34df5312-e560-4dce-b8dd-421e7099f9db",
+   "slug": "simplify-complex-codes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bb29118f-0375-4fc3-89a0-10cb659d4a85",
+   "slug": "compare-programming-languages",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a17b0ad5-830c-4b99-91ee-3fa43a67e6a4",
+   "slug": "implement-structured-logging",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bf43b9a1-b087-4892-ab52-21dc48219ce4",
+   "slug": "build-graphql-queries",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "22349720-a366-4e81-a3b0-c0661276d49a",
+   "slug": "solve-cors-configuration-issues",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bb3fa8ec-db88-4027-859d-f033ff139979",
+   "slug": "develop-http-caching-strategy",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "09073e63-e134-40ef-8513-c133cf76e6ba",
+   "slug": "convert-curl-commands-into-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "054e28bc-2519-4861-b9ed-129a77cba068",
+   "slug": "write-integration-tests",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b0cace54-45b5-4017-955b-1268524aea17",
+   "slug": "generate-postman-collection",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "64b64583-428c-4a50-a885-42b08e272720",
+   "slug": "fix-code-errors",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "feaffab4-f527-4ca8-8eb1-d23f3cf6015c",
+   "slug": "set-request-timeouts",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a9126a39-37a2-41ba-84d8-78204beb5046",
+   "slug": "configure-environment-variables",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b83e8b7a-ce97-4d97-8a2d-44c4066abc25",
+   "slug": "develop-api-health-check",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a0c20b15-dd58-4ed9-80ac-a71cb9f67995",
+   "slug": "design-robust-streaming-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7de5d253-be46-4615-9bc7-90fbd4ec9803",
+   "slug": "build-multipart-upload-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "e0c6dfcb-6597-4b70-91ec-07b4b10630a8",
+   "slug": "map-payload-fields",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "99f0311b-a8b6-4f61-b167-9e94698ec45a",
+   "slug": "convert-xml-to-json",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "95286a51-7aef-47b6-b947-9ce698b780a3",
+   "slug": "develop-asynchronous-job-poller",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "629d6179-56d3-4ac6-ad23-a07f5bf074a9",
+   "slug": "verify-webhook-signatures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6eaf01d1-1aee-440f-8642-8085b083d3a0",
+   "slug": "design-api-pagination-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "9fb7fb84-9a2a-479a-b523-f427595087a1",
+   "slug": "generate-idempotency-implementation-codes",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "2614a339-9861-4702-b0c4-9dc87e88dff4",
+   "slug": "develop-websocket-clients",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b89da14e-a5ba-44be-9bb5-e1e42703ca63",
+   "slug": "build-webhook-handlers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d9b4783a-911a-440d-9e08-9193429476af",
+   "slug": "generate-rest-client",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "fdb2a084-be5c-4171-8cc5-b23201a46761",
+   "slug": "develop-token-refresh-flow",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "eef60578-caa0-4cba-917a-5cadbb6c13f3",
+   "slug": "generate-hmac-authentication-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "49b07278-26d0-4d22-b057-d70ff46c8b01",
+   "slug": "develop-api-retry-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "0801da56-a39b-4758-bd08-df74eb426c67",
+   "slug": "develop-error-handling-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b66d4fbd-c079-4790-9d67-feb712017f14",
+   "slug": "build-secure-oauth-systems",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "25e06434-9f62-4110-8454-5814002a7b0d",
+   "slug": "build-oauth-client-credentials",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "1a5909a7-fb98-461a-957f-75d882229080",
+   "slug": "create-notebook-templates",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "aa5f4941-baf5-4961-ade9-a1c594ad9fbc",
+   "slug": "build-ml-prediction-function",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6a666498-19c7-40b8-80cf-6369c9588000",
+   "slug": "create-parameter-template",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a394ede5-57d7-47b1-904c-3a7f1de900a3",
+   "slug": "create-annotation-guide",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "def0f1ed-fb3f-405d-b9cc-28e962aaee1e",
+   "slug": "build-preprocessing-pipelines",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b111e355-f452-48f9-af82-a9c480d4fd1e",
+   "slug": "write-inference-scripts",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7e008d7d-16f6-439e-a79d-531c86f1d030",
+   "slug": "write-train-test-split-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f0441793-7527-478b-838f-088e7ece81de",
+   "slug": "generate-data-loading-scripts",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "840e3bfc-8c48-41b9-b8a6-1090277af616",
+   "slug": "plan-hyperparameter-tuning",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0be23257-3668-4b2c-b3f8-bfbfe2e500c2",
+   "slug": "generate-ml-testing-scenarios",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d3d20949-58e1-480f-9593-d7cde22af46c",
+   "slug": "create-restful-api-documentations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9e000147-312b-4512-89f0-4b9323809df6",
+   "slug": "design-data-pipelines",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "96ba5f8b-ccaa-4976-9526-c8182f808777",
+   "slug": "develop-neural-network",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9083a2e2-9f2e-4feb-a9c8-9aa6a3248791",
+   "slug": "draft-deployment-plan",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f555d3d4-3f3d-45cb-aae8-958061a67dc2",
+   "slug": "draft-error-notes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "cf134f35-0137-45eb-9a71-dc37060746d0",
+   "slug": "create-machine-learning-experiment-logs",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7e9d4b2e-d567-42dc-a13e-469ea72139da",
+   "slug": "draft-ai-safety-checklists",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "368d817c-674d-4da6-b842-aa6acabcff66",
+   "slug": "generate-ml-model-documentations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "020570b6-b2a5-4d3f-a717-03ac0941be8d",
+   "slug": "develop-regex-replacement-script",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "3eeafba4-1abb-4b49-8534-fef839777e91",
+   "slug": "automate-sftp-uploads",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "767975b9-3d0d-4431-a77e-83195484e328",
+   "slug": "generate-environment-setup-scripts",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "29f70601-db39-4a5c-8e63-29ba3013a3fe",
+   "slug": "generate-prompt-variations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ae4a46b4-2b8c-4246-8c35-02200656e74b",
+   "slug": "develop-google-sheet-automations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b03c7a6a-b96b-4f97-b262-8ee2a0bcb1a3",
+   "slug": "convert-markdown-to-pdf",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "017fdd2b-e63d-4377-bba4-5be5c6b5e5be",
+   "slug": "generate-secure-encryption-script",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "64330ea3-8d54-4d2d-a000-2ad065fe63e8",
+   "slug": "create-cron-job-configurations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b8e7ac9c-e4ff-4ec5-ab2e-604140b16b38",
+   "slug": "generate-backup-automation-script",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4f9024d5-7dd5-4dfa-aa23-3a10bf7cbf4f",
+   "slug": "develop-sqlite-database-loader",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "8f96edeb-7db1-4c57-9625-0afab5c96a20",
+   "slug": "generate-ethical-web-scraping-script",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "508a766a-4cba-47b2-a601-2745caacd2f3",
+   "slug": "build-api-polling-system",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "7d3a627a-a5cd-4148-9f80-756719ad0f3d",
+   "slug": "write-image-resizing-script",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "ee7c0e73-e200-434b-ac82-3e53c9dd20c9",
+   "slug": "build-excel-to-csv-converter",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "82cc2908-ca1a-4ae5-9f41-7b2cf243888d",
+   "slug": "build-pdf-split-and-merge-tool",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "c23913fb-0b90-429c-9e99-ef86946e1938",
+   "slug": "build-log-parser",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "bc2707ac-1421-4e3b-ac1e-d353c8985778",
+   "slug": "build-bulk-file-renamers",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "22fbf570-bee2-495e-afe3-a525908d2798",
+   "slug": "automate-folder-cleanups",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "fbe4a82f-c992-442d-b0bc-e3e6689884a1",
+   "slug": "explain-parameter-usage",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5d50b877-4bb1-45af-b52f-d1ea3b7489a2",
+   "slug": "recommend-codebase-naming-conventions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "8ce4b1c4-57ce-4bfb-a031-6b382492de31",
+   "slug": "fix-problematic-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b2c0a97f-3a46-40c2-9a6d-034d1257b306",
+   "slug": "clarify-unclear-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "22f8eb04-b20d-4a64-b057-e6ad38c0d06c",
+   "slug": "analyze-class-structure",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b2f34c98-1d2e-4aac-9900-dd2175815d89",
+   "slug": "map-code-execution-flows",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9c36757b-2f36-4466-b625-124a83f4dc74",
+   "slug": "analyze-code-naming-choices",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0cfa3918-d801-4648-8ed0-c0e05d58b1c9",
+   "slug": "analyze-code-intent",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "34da2164-f329-4ac4-b71a-2e8af9bffcbe",
+   "slug": "analyze-software-architecture",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "1d47c590-6f77-4ee8-83e7-e4874e2d6bcb",
+   "slug": "analyze-loop-behavior",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e230006e-757a-4c8e-97e1-ca667c068b92",
+   "slug": "explain-conditional-logic",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "17c19e1b-7d90-4b50-bb08-d116b946df96",
+   "slug": "convert-code-to-pseudocode",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "02d6d32b-6099-427e-9a81-2fe4517c589a",
+   "slug": "analyze-data-flow",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "16fd53e4-8e2b-45a6-bba4-b96f0a0f59dc",
+   "slug": "explain-api-usage",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "fab3e6ef-ece8-40b7-8a12-bccf3db22af7",
+   "slug": "break-down-complex-code",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "cceebe7b-94f5-432c-8fc5-b2089b38bba0",
+   "slug": "clarify-library-functions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "fee1b047-da1b-41a3-bcf5-f9f6168cc03a",
+   "slug": "clarify-error-messages",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5b2bab3e-08aa-460d-94dc-3f47ba717cb0",
+   "slug": "interpret-stack-traces",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "898ebbe6-4b28-42f5-8f35-fa44b63cf7b5",
+   "slug": "analyze-function-code-purposes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "62db6c62-6087-4ea0-a136-779beb419951",
+   "slug": "compare-two-code-versions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "bde598bf-793e-4a16-ae05-48d2da82b93e",
+   "slug": "clarify-variable-roles",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "1a85f10e-b5ea-4914-a41f-34e42297af1e",
+   "slug": "prioritize-test-cases",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "3ade6350-4c6b-4d30-b68b-66ea73faf4b6",
+   "slug": "craft-bug-reports",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d399ebf1-bdb0-4361-a5df-4792ce285c5e",
+   "slug": "create-qa-documentation-templates",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "5091a5b3-ded1-4666-901e-1f34e9bf4500",
+   "slug": "identify-security-vulnerabilities",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c8d00a98-8a71-43ac-b07b-c8d1d045eed9",
+   "slug": "create-test-execution-checklists",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "276fee32-1536-4141-8007-8f44c42a6152",
+   "slug": "develop-pull-request-reviews",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "58fbeb43-8472-4982-bd55-fd57cf17b582",
+   "slug": "transform-static-analysis-outputs",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b02ed1ef-6578-4fad-b49c-afa741d45e78",
+   "slug": "develop-code-quality-scorecards",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d96bf996-7a86-4fa9-8f9d-d1b87c271e9d",
+   "slug": "design-performance-test-plans",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ec8b8f2b-b5b7-449e-ae5c-410a04fd84c9",
+   "slug": "compare-function-outputs",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "87e25dc6-cacb-442e-9f44-fe20190f12b1",
+   "slug": "create-code-style-reports",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "488b3cbc-1ef7-4c75-8e71-6ea626ed7c97",
+   "slug": "brainstorm-test-coverage-ideas",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c6479ca2-3b8f-426d-913a-ff97a2d6b09b",
+   "slug": "generate-mock-api-responses",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "88fbfeea-254c-43cd-9c7c-d301c9ced3b6",
+   "slug": "draft-comment-documentation",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "69ef56e4-c789-4ace-8c9b-737b76c73672",
+   "slug": "identify-edge-case-failures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "1e840701-0f83-4fb0-aa97-d8918e7a8de9",
+   "slug": "develop-input-validations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4be306f2-0ad8-47c8-b1da-5594f4081d67",
+   "slug": "develop-regression-test-lists",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "471f09a5-faf8-491e-bd57-698c0e2b53d8",
+   "slug": "summarize-code-function",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b3f182b3-eef0-49c5-b586-fa25766021c6",
+   "slug": "Explain Code Logic",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "084e823d-c449-4d67-a120-3eaca3cd9edf",
+   "slug": "create-bdd-test-scenarios",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "486954cf-fc4c-4bf5-8507-a8d644964058",
+   "slug": "generate-unit-test-cases",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b6f4ea01-6b11-416f-88bf-e0888f49350a",
+   "slug": "review-code-logic",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7ddb9eb3-5641-4a19-bed0-6a31d94f8958",
+   "slug": "analyze-code-smells",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "16606183-c4c0-4e6d-8d8b-ff173d465956",
+   "slug": "plan-index-maintenance",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "944c45f9-3184-4cda-945c-5a86bd3c4b6f",
+   "slug": "generate-integration-test-cases",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "2d9b8314-81b9-4df2-aca6-6ff6434a822e",
+   "slug": "generate-test-data-samples",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "719da5fe-cee5-4a73-a47b-5fbe033aa343",
+   "slug": "debug-conditional-logic-errors",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "81a36380-e937-4935-878e-cd12215d7ebb",
+   "slug": "reproduce-error-steps",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4feed90f-ec6b-488b-b027-148f30333a2e",
+   "slug": "identify-missing-return-statements",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "46b096d4-fe44-4fb7-a153-070edf2c64a7",
+   "slug": "audit-code-comments",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9045a292-9a5a-4871-bbd3-3afaadd7ab4d",
+   "slug": "fix-code-syntax-errors",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "60eae21b-f69c-4d50-a7da-717283b5d9cf",
+   "slug": "analyze-comparison-operators",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "32c92815-5b5b-4469-ba10-0fb6b2df0474",
+   "slug": "resolve-undefined-variable-errors",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "b00c2d23-ba6b-40ac-9cdd-dac8269868ed",
+   "slug": "fix-indentation-errors",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a3e159de-0573-41bc-b3c7-96cf55d35cb2",
+   "slug": "identify-off-by-one-errors",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "2cdc33b3-6bd0-45fb-b3b3-e030cf0d7bc5",
+   "slug": "analyze-variable-naming-inconsistencies",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "abaeab7b-0473-46b5-bcef-cd590bb80f18",
+   "slug": "verify-function-names",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d4bdc26e-ffa3-44bf-8000-b023ca74698b",
+   "slug": "remove-debugging-statements",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "cbd0d613-b7bb-426c-8014-362a637296d2",
+   "slug": "fix-loop-bounds",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "45563789-a38a-4137-b15d-0886a7be45e3",
+   "slug": "solve-case-sensitivity-bugs",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "3bfa475a-d681-4965-a8e0-92b133d1984a",
+   "slug": "resolve-problematic-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "590fe1b1-3c08-4f3d-a150-af6493b71afe",
+   "slug": "fix-code-structures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f5bfb888-13bf-4457-bee1-5a3fb0acae3b",
+   "slug": "improve-logging-pattern",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a5451e1b-1a80-454a-8232-ea149eb50775",
+   "slug": "improve-exception-handling",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "dd46b3a3-5532-4c72-b262-16c18149462b",
+   "slug": "analyze-error-messages",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ec85efab-cbe9-44ac-be28-a4469f7adf15",
+   "slug": "resolve-dependency-conflicts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "09b22812-412b-41f4-b41c-708a896bc9fb",
+   "slug": "debug-configuration-failures",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c0fc4fc5-b7be-42b9-8685-c7f8af2e6f88",
+   "slug": "audit-api-architecture",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ec8a54d4-4754-4f7e-8892-497dbeb465de",
+   "slug": "create-unit-test-scenarios",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "6fbf35cc-fd2b-48bd-81eb-77e59341e377",
+   "slug": "design-database-view-definitions",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "77dd6cb6-4083-4beb-b7f4-fb0b1ba11a06",
+   "slug": "design-role-based-access-controls",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "049314dc-a094-4c7c-b8e6-00443d4a042e",
+   "slug": "prepare-migration-step-list",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "85fb324b-c275-4667-ad48-ca0823dbcd84",
+   "slug": "define-key-constraints",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "cb6decf0-6864-4a7c-9402-05e9201931c6",
+   "slug": "develop-defensive-input-validations",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "dd04d6f8-81be-4024-803c-94b7369e02b6",
+   "slug": "develop-data-access-guidelines",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9ebda292-070f-4983-bc58-7e225cfff6b2",
+   "slug": "find-redundant-tables",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a28c2801-c8ca-4957-9677-6d56876c6430",
+   "slug": "standardize-naming-conventions",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "a73f23eb-a974-483e-973a-6879c234dc70",
+   "slug": "rewrite-complex-joins",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "53558b79-d615-4468-9654-94d9bd2935c3",
+   "slug": "set-data-validation-rules",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "d3e76e25-7b73-4c3d-a8c7-89ea20e7a68e",
+   "slug": "draft-stored-procedures",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "15513737-7b8b-41b6-83a0-1faafce2ff5e",
+   "slug": "analyze-database-indexing-strategies",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "14f695ef-1c70-47c2-b949-2cdc80cd9c91",
+   "slug": "format-database-documentations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4d51aebe-256e-4611-9a9d-747ca025ca8f",
+   "slug": "develop-data-archiving-strategies",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ed100266-6688-4f91-8daa-bc12964ffd91",
+   "slug": "convert-erd-diagrams-into-schemas",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "f745b0b4-2251-4db0-8166-9279772356aa",
+   "slug": "optimize-query-performances",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0b302e76-ce21-4d66-b716-145e52195b55",
+   "slug": "develop-data-dictionary",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f9cbe45c-7250-4eb0-b52a-6a7000a81192",
+   "slug": "generate-test-datasets",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "149f6969-2c90-445f-95b3-c265d331a56b",
+   "slug": "analyze-data-model-flaws",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "9ae65db3-c572-4a5d-970d-b509de9ccc28",
+   "slug": "normalize-table-structure",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6d8ad8dd-6226-4771-ba1b-dd294e7754c7",
+   "slug": "design-database-schemas",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "5985679b-94e5-4f9e-86f6-95392f66174c",
+   "slug": "have-intellectual-conversations-with-helena",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "51550310-7c8d-4dbe-a846-bc12e7378208",
+   "slug": "plan-page-navigation-order",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "de227d5d-9f74-488d-a8f9-fd6c6f23b597",
+   "slug": "optimize-image-performance",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "346f5638-1389-46ac-be11-ae0d2e8da1cc",
+   "slug": "stop-ai-hallucinations",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "81a63722-ee1f-49d6-9cee-57ca534ac3d6",
+   "slug": "design-bug-fix-workflows",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "b20d33ea-72c5-4352-b783-08ac1964dec3",
+   "slug": "plan-mobile-layout-transformation",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "313a2501-fdf8-4be2-8cc8-7feb3201dc5b",
+   "slug": "generate-sql-queries",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4e7a0d40-79ad-4c73-b6fd-fef7345c23da",
+   "slug": "plan-store-navigation-menus",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f7e3f408-0230-4981-9a30-eece1c83743b",
+   "slug": "create-error-free-n8n-workflows",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "17d718c8-e3ca-4811-9ac5-06f45224d45f",
+   "slug": "build-post-purchase-experience-ui",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "76158751-f96e-43e9-a517-c370c5aa39c3",
+   "slug": "design-multi-step-checkout-ui",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "d350db22-cd31-4d1c-a163-57615a3ffd02",
+   "slug": "optimize-header-and-footer-designs",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0bde875d-3ffa-4857-abdd-5812cd1c609e",
+   "slug": "design-multi-step-checkout-flows",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "96f4d49d-1e1d-4a34-b566-a9d02e8b7b72",
+   "slug": "create-quick-view-product-cards",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f77e0d3f-bbf8-495f-828b-e5d73ee408b0",
+   "slug": "develop-personalization-widgets",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "36333e82-a486-4709-896e-a6ca918e0fe3",
+   "slug": "enhance-search-functionality",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "87c87f9b-e79a-484c-bcb1-717a79310b6f",
+   "slug": "develop-microinteraction-strategies",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ee9e9241-22f5-4a81-89af-3855716dd710",
+   "slug": "create-mobile-navigation-solutions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "e9bbe9fa-cceb-4afa-b30f-10603320c308",
+   "slug": "design-product-filters",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6f6f3629-e3bd-415b-b8ce-c6a9e9cd900d",
+   "slug": "design-wishlist-functionality",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "320d0fd5-fa3c-4580-9202-5e9348e3c932",
+   "slug": "develop-homepage-layouts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f0ec0636-9854-4642-835b-26fb07cdac55",
+   "slug": "design-navigation-menu",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "a9938b5e-5245-4f09-abc5-98f06db2d2f7",
+   "slug": "develop-responsive-design-guidelines",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "ccaafea2-c7cb-4813-a499-62bb08829dcb",
+   "slug": "design-user-registration-flows",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f9df017c-42dc-479c-b927-a35aa2856bbf",
+   "slug": "create-mobile-first-design-layouts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "20c0f469-c3ad-483b-a428-822a34e058a8",
+   "slug": "design-crm-seo-integration-systems",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "80a8800b-d708-4b3c-966f-a2c24effb16c",
+   "slug": "create-homepage-wireframes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f8d31754-2550-437b-bed2-c6a1ae13982e",
+   "slug": "optimize-your-ai-prompts",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "f4a586a4-2cb6-4f43-b927-aec7b09a12d3",
+   "slug": "draft-api-documentation",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "67d2b41b-7932-4b21-8067-d9bc2423cf2c",
+   "slug": "get-n8n-workflows-from-screenshots",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "cc4abf8d-08aa-4a07-bf6a-62f1f526fac2",
+   "slug": "automate-weekly-lms-pipelines",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7744599b-dd8c-423c-853a-b3bf58b43d73",
+   "slug": "write-test-case-descriptions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "6dd478d7-3a52-4a51-a55c-85192a7f876d",
+   "slug": "get-chatbot-development-solutions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "4e88a3ae-737b-488a-ba0a-2e26a484f2a6",
+   "slug": "understand-complex-code",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "af41bcd6-709a-4260-8d0a-e5e2d5923ff4",
+   "slug": "get-ai-chatbot-solutions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "c21d2f50-8548-4ebd-a21f-83999cdf7b94",
+   "slug": "launch-financial-tracking-system",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "0dc83d8f-38e0-4db2-a896-e34bec7051cd",
+   "slug": "get-data-error-resolutions",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  },
+  {
+   "id": "7bce990d-3b9f-4311-a5c5-bb20f77fb4d8",
+   "slug": "comment-source-code",
+   "output_type_now": "text",
+   "output_type_new": "code"
+  },
+  {
+   "id": "4b9665c6-7365-4797-8c6b-384de5d05843",
+   "slug": "draft-software-release-notes",
+   "output_type_now": "text",
+   "output_type_new": "text"
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+  "generatedFrom": "https://api-dev.godofprompt.dev",
+  "totalPrompts": 6634,
+  "roots": [
+    {
+      "slug": "art-and-design",
+      "name": "Art and Design",
+      "count": 770
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "count": 734
+    },
+    {
+      "slug": "seo",
+      "name": "SEO",
+      "count": 570
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "count": 493
+    },
+    {
+      "slug": "coding",
+      "name": "Coding",
+      "count": 492
+    },
+    {
+      "slug": "strategy",
+      "name": "Strategy",
+      "count": 462
+    },
+    {
+      "slug": "productivity",
+      "name": "Productivity",
+      "count": 403
+    },
+    {
+      "slug": "writing",
+      "name": "Writing",
+      "count": 402
+    },
+    {
+      "slug": "operations",
+      "name": "Operations",
+      "count": 400
+    },
+    {
+      "slug": "human-resources",
+      "name": "Human Resources",
+      "count": 349
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "count": 318
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "count": 303
+    },
+    {
+      "slug": "legal",
+      "name": "Legal",
+      "count": 217
+    },
+    {
+      "slug": "data-analysis",
+      "name": "Data Analysis",
+      "count": 211
+    },
+    {
+      "slug": "real-estate",
+      "name": "Real Estate",
+      "count": 145
+    },
+    {
+      "slug": "sales",
+      "name": "Sales",
+      "count": 145
+    },
+    {
+      "slug": "customer-service",
+      "name": "Customer Service",
+      "count": 105
+    },
+    {
+      "slug": "careers",
+      "name": "Careers",
+      "count": 95
+    },
+    {
+      "slug": "audio",
+      "name": "Audio",
+      "count": 16
+    },
+    {
+      "slug": "ai-agents",
+      "name": "AI Agents",
+      "count": 2
+    },
+    {
+      "slug": "video",
+      "name": "Video",
+      "count": 2
+    }
+  ],
+  "subcategories": [
+    {
+      "slug": "portrait-and-avatar",
+      "name": "Portrait & Avatar",
+      "parent": "art-and-design",
+      "count": 216
+    },
+    {
+      "slug": "sops-and-processes",
+      "name": "SOPs & Processes",
+      "parent": "operations",
+      "count": 160
+    },
+    {
+      "slug": "social-media-posts",
+      "name": "Social Media Posts",
+      "parent": "marketing",
+      "count": 156
+    },
+    {
+      "slug": "course-creation",
+      "name": "Course Creation",
+      "parent": "education",
+      "count": 151
+    },
+    {
+      "slug": "funnels-and-sequences",
+      "name": "Funnels & Sequences",
+      "parent": "marketing",
+      "count": 145
+    },
+    {
+      "slug": "business-plans",
+      "name": "Business Plans",
+      "parent": "strategy",
+      "count": 140
+    },
+    {
+      "slug": "technical-seo",
+      "name": "Technical SEO",
+      "parent": "seo",
+      "count": 131
+    },
+    {
+      "slug": "workflow-design",
+      "name": "Workflow Design",
+      "parent": "operations",
+      "count": 127
+    },
+    {
+      "slug": "market-research",
+      "name": "Market Research",
+      "parent": "research",
+      "count": 114
+    },
+    {
+      "slug": "scripts-and-storytelling",
+      "name": "Scripts & Storytelling",
+      "parent": "writing",
+      "count": 113
+    },
+    {
+      "slug": "on-page-optimization",
+      "name": "On-Page Optimization",
+      "parent": "seo",
+      "count": 112
+    },
+    {
+      "slug": "go-to-market",
+      "name": "Go-to-Market",
+      "parent": "strategy",
+      "count": 109
+    },
+    {
+      "slug": "goal-setting",
+      "name": "Goal Setting",
+      "parent": "productivity",
+      "count": 108
+    },
+    {
+      "slug": "keyword-research",
+      "name": "Keyword Research",
+      "parent": "seo",
+      "count": 108
+    },
+    {
+      "slug": "time-management",
+      "name": "Time Management",
+      "parent": "productivity",
+      "count": 100
+    },
+    {
+      "slug": "app-development",
+      "name": "App Development",
+      "parent": "coding",
+      "count": 95
+    },
+    {
+      "slug": "email-campaigns",
+      "name": "Email Campaigns",
+      "parent": "marketing",
+      "count": 95
+    },
+    {
+      "slug": "hr-policies",
+      "name": "HR Policies",
+      "parent": "human-resources",
+      "count": 95
+    },
+    {
+      "slug": "editing-and-proofreading",
+      "name": "Editing & Proofreading",
+      "parent": "writing",
+      "count": 88
+    },
+    {
+      "slug": "concept-art",
+      "name": "Concept Art",
+      "parent": "art-and-design",
+      "count": 87
+    },
+    {
+      "slug": "product-photography",
+      "name": "Product Photography",
+      "parent": "art-and-design",
+      "count": 87
+    },
+    {
+      "slug": "data-insights",
+      "name": "Data Insights",
+      "parent": "data-analysis",
+      "count": 86
+    },
+    {
+      "slug": "content-briefs",
+      "name": "Content Briefs",
+      "parent": "seo",
+      "count": 85
+    },
+    {
+      "slug": "lesson-plans",
+      "name": "Lesson Plans",
+      "parent": "education",
+      "count": 85
+    },
+    {
+      "slug": "link-building",
+      "name": "Link Building",
+      "parent": "seo",
+      "count": 81
+    },
+    {
+      "slug": "frontend-and-ui",
+      "name": "Frontend & UI",
+      "parent": "coding",
+      "count": 80
+    },
+    {
+      "slug": "interior-and-exterior-renders",
+      "name": "Interior & Exterior Renders",
+      "parent": "art-and-design",
+      "count": 80
+    },
+    {
+      "slug": "task-management",
+      "name": "Task Management",
+      "parent": "productivity",
+      "count": 80
+    },
+    {
+      "slug": "study-guides",
+      "name": "Study Guides",
+      "parent": "education",
+      "count": 78
+    },
+    {
+      "slug": "training-materials",
+      "name": "Training Materials",
+      "parent": "human-resources",
+      "count": 75
+    },
+    {
+      "slug": "academic-writing",
+      "name": "Academic Writing",
+      "parent": "education",
+      "count": 74
+    },
+    {
+      "slug": "ad-copy",
+      "name": "Ad Copy",
+      "parent": "marketing",
+      "count": 73
+    },
+    {
+      "slug": "brainstorming",
+      "name": "Brainstorming",
+      "parent": "productivity",
+      "count": 73
+    },
+    {
+      "slug": "personal-brand",
+      "name": "Personal Brand",
+      "parent": "marketing",
+      "count": 73
+    },
+    {
+      "slug": "creative-writing",
+      "name": "Creative Writing",
+      "parent": "writing",
+      "count": 72
+    },
+    {
+      "slug": "compliance",
+      "name": "Compliance",
+      "parent": "legal",
+      "count": 70
+    },
+    {
+      "slug": "icon-and-ui-design",
+      "name": "Icon & UI Design",
+      "parent": "art-and-design",
+      "count": 70
+    },
+    {
+      "slug": "project-management",
+      "name": "Project Management",
+      "parent": "operations",
+      "count": 70
+    },
+    {
+      "slug": "blog-posts-and-articles",
+      "name": "Blog Posts & Articles",
+      "parent": "writing",
+      "count": 67
+    },
+    {
+      "slug": "landing-page-copy",
+      "name": "Landing Page Copy",
+      "parent": "marketing",
+      "count": 65
+    },
+    {
+      "slug": "positioning-and-messaging",
+      "name": "Positioning & Messaging",
+      "parent": "strategy",
+      "count": 62
+    },
+    {
+      "slug": "reporting-and-dashboards",
+      "name": "Reporting & Dashboards",
+      "parent": "data-analysis",
+      "count": 61
+    },
+    {
+      "slug": "tutoring-and-explanations",
+      "name": "Tutoring & Explanations",
+      "parent": "education",
+      "count": 61
+    },
+    {
+      "slug": "content-repurposing",
+      "name": "Content Repurposing",
+      "parent": "marketing",
+      "count": 60
+    },
+    {
+      "slug": "investing-and-trading",
+      "name": "Investing & Trading",
+      "parent": "finance",
+      "count": 60
+    },
+    {
+      "slug": "funding-and-grants",
+      "name": "Funding & Grants",
+      "parent": "finance",
+      "count": 59
+    },
+    {
+      "slug": "swot-and-frameworks",
+      "name": "SWOT & Frameworks",
+      "parent": "strategy",
+      "count": 58
+    },
+    {
+      "slug": "personal-finance",
+      "name": "Personal Finance",
+      "parent": "finance",
+      "count": 55
+    },
+    {
+      "slug": "local-seo",
+      "name": "Local SEO",
+      "parent": "seo",
+      "count": 53
+    },
+    {
+      "slug": "onboarding-plans",
+      "name": "Onboarding Plans",
+      "parent": "human-resources",
+      "count": 51
+    },
+    {
+      "slug": "trend-analysis",
+      "name": "Trend Analysis",
+      "parent": "research",
+      "count": 50
+    },
+    {
+      "slug": "1-1s-and-feedback",
+      "name": "1:1s & Feedback",
+      "parent": "human-resources",
+      "count": 49
+    },
+    {
+      "slug": "contract-drafting",
+      "name": "Contract Drafting",
+      "parent": "legal",
+      "count": 48
+    },
+    {
+      "slug": "documentation",
+      "name": "Documentation",
+      "parent": "coding",
+      "count": 48
+    },
+    {
+      "slug": "illustration",
+      "name": "Illustration",
+      "parent": "art-and-design",
+      "count": 47
+    },
+    {
+      "slug": "cash-flow",
+      "name": "Cash Flow",
+      "parent": "finance",
+      "count": 46
+    },
+    {
+      "slug": "literature-review",
+      "name": "Literature Review",
+      "parent": "research",
+      "count": 46
+    },
+    {
+      "slug": "ad-creatives-and-banners",
+      "name": "Ad Creatives & Banners",
+      "parent": "art-and-design",
+      "count": 44
+    },
+    {
+      "slug": "career-change-advice",
+      "name": "Career Change Advice",
+      "parent": "careers",
+      "count": 44
+    },
+    {
+      "slug": "headlines-and-hooks",
+      "name": "Headlines & Hooks",
+      "parent": "marketing",
+      "count": 44
+    },
+    {
+      "slug": "performance-reviews",
+      "name": "Performance Reviews",
+      "parent": "human-resources",
+      "count": 44
+    },
+    {
+      "slug": "competitive-analysis",
+      "name": "Competitive Analysis",
+      "parent": "research",
+      "count": 42
+    },
+    {
+      "slug": "debugging",
+      "name": "Debugging",
+      "parent": "coding",
+      "count": 42
+    },
+    {
+      "slug": "legal-research",
+      "name": "Legal Research",
+      "parent": "legal",
+      "count": 42
+    },
+    {
+      "slug": "apis-and-integrations",
+      "name": "APIs & Integrations",
+      "parent": "coding",
+      "count": 39
+    },
+    {
+      "slug": "copywriting",
+      "name": "Copywriting",
+      "parent": "writing",
+      "count": 38
+    },
+    {
+      "slug": "deal-analysis",
+      "name": "Deal Analysis",
+      "parent": "real-estate",
+      "count": 38
+    },
+    {
+      "slug": "rental-and-property-management",
+      "name": "Rental & Property Management",
+      "parent": "real-estate",
+      "count": 38
+    },
+    {
+      "slug": "tax-planning",
+      "name": "Tax Planning",
+      "parent": "finance",
+      "count": 38
+    },
+    {
+      "slug": "devops-and-deployment",
+      "name": "DevOps & Deployment",
+      "parent": "coding",
+      "count": 37
+    },
+    {
+      "slug": "decision-making",
+      "name": "Decision Making",
+      "parent": "productivity",
+      "count": 36
+    },
+    {
+      "slug": "proposals-and-quotes",
+      "name": "Proposals & Quotes",
+      "parent": "sales",
+      "count": 36
+    },
+    {
+      "slug": "budgeting",
+      "name": "Budgeting",
+      "parent": "finance",
+      "count": 35
+    },
+    {
+      "slug": "deep-research",
+      "name": "Deep Research",
+      "parent": "research",
+      "count": 35
+    },
+    {
+      "slug": "sales-pitches",
+      "name": "Sales Pitches",
+      "parent": "sales",
+      "count": 33
+    },
+    {
+      "slug": "resume-and-linkedin",
+      "name": "Resume & LinkedIn",
+      "parent": "careers",
+      "count": 32
+    },
+    {
+      "slug": "feedback-analysis",
+      "name": "Feedback Analysis",
+      "parent": "customer-service",
+      "count": 31
+    },
+    {
+      "slug": "food-photography",
+      "name": "Food Photography",
+      "parent": "art-and-design",
+      "count": 31
+    },
+    {
+      "slug": "refactoring",
+      "name": "Refactoring",
+      "parent": "coding",
+      "count": 31
+    },
+    {
+      "slug": "packaging-and-mockups",
+      "name": "Packaging & Mockups",
+      "parent": "art-and-design",
+      "count": 30
+    },
+    {
+      "slug": "okrs-and-goals",
+      "name": "OKRs & Goals",
+      "parent": "strategy",
+      "count": 28
+    },
+    {
+      "slug": "pricing-strategy",
+      "name": "Pricing Strategy",
+      "parent": "strategy",
+      "count": 28
+    },
+    {
+      "slug": "quality-assurance",
+      "name": "Quality Assurance",
+      "parent": "operations",
+      "count": 28
+    },
+    {
+      "slug": "database-design",
+      "name": "Database Design",
+      "parent": "coding",
+      "count": 27
+    },
+    {
+      "slug": "functions-and-logic",
+      "name": "Functions & Logic",
+      "parent": "coding",
+      "count": 26
+    },
+    {
+      "slug": "testing",
+      "name": "Testing",
+      "parent": "coding",
+      "count": 26
+    },
+    {
+      "slug": "poster-and-flyer",
+      "name": "Poster & Flyer",
+      "parent": "art-and-design",
+      "count": 25
+    },
+    {
+      "slug": "voice-and-persona",
+      "name": "Voice & Persona",
+      "parent": "writing",
+      "count": 24
+    },
+    {
+      "slug": "follow-up-sequences",
+      "name": "Follow-up Sequences",
+      "parent": "sales",
+      "count": 23
+    },
+    {
+      "slug": "help-center-and-faqs",
+      "name": "Help Center & FAQs",
+      "parent": "customer-service",
+      "count": 23
+    },
+    {
+      "slug": "ip-and-trademarks",
+      "name": "IP & Trademarks",
+      "parent": "legal",
+      "count": 23
+    },
+    {
+      "slug": "property-marketing",
+      "name": "Property Marketing",
+      "parent": "real-estate",
+      "count": 23
+    },
+    {
+      "slug": "video-ad-scripts",
+      "name": "Video Ad Scripts",
+      "parent": "marketing",
+      "count": 23
+    },
+    {
+      "slug": "contract-review",
+      "name": "Contract Review",
+      "parent": "legal",
+      "count": 22
+    },
+    {
+      "slug": "financial-modeling",
+      "name": "Financial Modeling",
+      "parent": "finance",
+      "count": 22
+    },
+    {
+      "slug": "grading-and-feedback",
+      "name": "Grading & Feedback",
+      "parent": "education",
+      "count": 21
+    },
+    {
+      "slug": "market-analysis",
+      "name": "Market Analysis",
+      "parent": "real-estate",
+      "count": 21
+    },
+    {
+      "slug": "character-design",
+      "name": "Character Design",
+      "parent": "art-and-design",
+      "count": 20
+    },
+    {
+      "slug": "quizzes-and-tests",
+      "name": "Quizzes & Tests",
+      "parent": "education",
+      "count": 20
+    },
+    {
+      "slug": "roadmaps",
+      "name": "Roadmaps",
+      "parent": "strategy",
+      "count": 20
+    },
+    {
+      "slug": "cold-outreach",
+      "name": "Cold Outreach",
+      "parent": "sales",
+      "count": 19
+    },
+    {
+      "slug": "data-cleaning",
+      "name": "Data Cleaning",
+      "parent": "data-analysis",
+      "count": 19
+    },
+    {
+      "slug": "data-visualization",
+      "name": "Data Visualization",
+      "parent": "data-analysis",
+      "count": 19
+    },
+    {
+      "slug": "mortgage-and-financing",
+      "name": "Mortgage & Financing",
+      "parent": "real-estate",
+      "count": 19
+    },
+    {
+      "slug": "competitive-strategy",
+      "name": "Competitive Strategy",
+      "parent": "strategy",
+      "count": 17
+    },
+    {
+      "slug": "objection-handling",
+      "name": "Objection Handling",
+      "parent": "sales",
+      "count": 17
+    },
+    {
+      "slug": "onboarding-messages",
+      "name": "Onboarding Messages",
+      "parent": "customer-service",
+      "count": 16
+    },
+    {
+      "slug": "source-summarization",
+      "name": "Source Summarization",
+      "parent": "research",
+      "count": 16
+    },
+    {
+      "slug": "interview-prep",
+      "name": "Interview Prep",
+      "parent": "careers",
+      "count": 15
+    },
+    {
+      "slug": "job-descriptions",
+      "name": "Job Descriptions",
+      "parent": "human-resources",
+      "count": 15
+    },
+    {
+      "slug": "meeting-summaries",
+      "name": "Meeting Summaries",
+      "parent": "operations",
+      "count": 15
+    },
+    {
+      "slug": "a-b-testing",
+      "name": "A/B Testing",
+      "parent": "data-analysis",
+      "count": 13
+    },
+    {
+      "slug": "chatbot-scripts",
+      "name": "Chatbot Scripts",
+      "parent": "customer-service",
+      "count": 13
+    },
+    {
+      "slug": "automation-logic",
+      "name": "Automation Logic",
+      "parent": "coding",
+      "count": 12
+    },
+    {
+      "slug": "code-review",
+      "name": "Code Review",
+      "parent": "coding",
+      "count": 12
+    },
+    {
+      "slug": "ndas-and-agreements",
+      "name": "NDAs & Agreements",
+      "parent": "legal",
+      "count": 12
+    },
+    {
+      "slug": "support-replies",
+      "name": "Support Replies",
+      "parent": "customer-service",
+      "count": 12
+    },
+    {
+      "slug": "spreadsheets-and-formulas",
+      "name": "Spreadsheets & Formulas",
+      "parent": "data-analysis",
+      "count": 11
+    },
+    {
+      "slug": "complaint-handling",
+      "name": "Complaint Handling",
+      "parent": "customer-service",
+      "count": 10
+    },
+    {
+      "slug": "interview-questions",
+      "name": "Interview Questions",
+      "parent": "human-resources",
+      "count": 10
+    },
+    {
+      "slug": "logo-design",
+      "name": "Logo Design",
+      "parent": "art-and-design",
+      "count": 10
+    },
+    {
+      "slug": "resume-screening",
+      "name": "Resume Screening",
+      "parent": "human-resources",
+      "count": 10
+    },
+    {
+      "slug": "chatbot-personas",
+      "name": "Chatbot Personas",
+      "parent": "coding",
+      "count": 9
+    },
+    {
+      "slug": "lead-qualification",
+      "name": "Lead Qualification",
+      "parent": "sales",
+      "count": 9
+    },
+    {
+      "slug": "podcasts",
+      "name": "Podcasts",
+      "parent": "audio",
+      "count": 9
+    },
+    {
+      "slug": "discovery-questions",
+      "name": "Discovery Questions",
+      "parent": "sales",
+      "count": 8
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "parent": "audio",
+      "count": 7
+    },
+    {
+      "slug": "coloring-pages",
+      "name": "Coloring Pages",
+      "parent": "art-and-design",
+      "count": 6
+    },
+    {
+      "slug": "email-management",
+      "name": "Email Management",
+      "parent": "productivity",
+      "count": 6
+    },
+    {
+      "slug": "photo-editing-and-restoration",
+      "name": "Photo Editing & Restoration",
+      "parent": "art-and-design",
+      "count": 6
+    },
+    {
+      "slug": "stickers-and-emojis",
+      "name": "Stickers & Emojis",
+      "parent": "art-and-design",
+      "count": 6
+    },
+    {
+      "slug": "agent-system-prompts",
+      "name": "Agent System Prompts",
+      "parent": "coding",
+      "count": 5
+    },
+    {
+      "slug": "tattoo-design",
+      "name": "Tattoo Design",
+      "parent": "art-and-design",
+      "count": 5
+    },
+    {
+      "slug": "salary-negotiation",
+      "name": "Salary Negotiation",
+      "parent": "careers",
+      "count": 4
+    },
+    {
+      "slug": "buyer-and-seller-emails",
+      "name": "Buyer & Seller Emails",
+      "parent": "real-estate",
+      "count": 3
+    },
+    {
+      "slug": "crypto-and-web3",
+      "name": "Crypto & Web3",
+      "parent": "finance",
+      "count": 3
+    },
+    {
+      "slug": "listing-descriptions",
+      "name": "Listing Descriptions",
+      "parent": "real-estate",
+      "count": 3
+    },
+    {
+      "slug": "worksheets",
+      "name": "Worksheets",
+      "parent": "education",
+      "count": 3
+    },
+    {
+      "slug": "agentic-workflows",
+      "name": "Agentic Workflows",
+      "parent": "coding",
+      "count": 2
+    },
+    {
+      "slug": "cinematic-shots",
+      "name": "Cinematic Shots",
+      "parent": "video",
+      "count": 2
+    },
+    {
+      "slug": "sql-queries",
+      "name": "SQL Queries",
+      "parent": "data-analysis",
+      "count": 2
+    },
+    {
+      "slug": "web-scraping",
+      "name": "Web Scraping",
+      "parent": "coding",
+      "count": 1
+    }
+  ],
+  "tools": [
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "count": 5889
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "count": 5877
+    },
+    {
+      "slug": "gemini",
+      "name": "Gemini",
+      "count": 5195
+    },
+    {
+      "slug": "grok",
+      "name": "Grok",
+      "count": 4852
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "count": 2833
+    },
+    {
+      "slug": "mistral",
+      "name": "Mistral",
+      "count": 2549
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "count": 747
+    },
+    {
+      "slug": "flux",
+      "name": "Flux",
+      "count": 733
+    },
+    {
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "count": 685
+    },
+    {
+      "slug": "nano-banana",
+      "name": "Nano Banana",
+      "count": 553
+    },
+    {
+      "slug": "dall-e",
+      "name": "DALL-E",
+      "count": 515
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "count": 111
+    },
+    {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "count": 85
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "count": 80
+    },
+    {
+      "slug": "v0",
+      "name": "v0",
+      "count": 50
+    },
+    {
+      "slug": "lovable",
+      "name": "Lovable",
+      "count": 16
+    },
+    {
+      "slug": "krea",
+      "name": "Krea",
+      "count": 10
+    },
+    {
+      "slug": "bolt",
+      "name": "Bolt",
+      "count": 4
+    },
+    {
+      "slug": "notebooklm",
+      "name": "NotebookLM",
+      "count": 3
+    },
+    {
+      "slug": "asana",
+      "name": "Asana",
+      "count": 1
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "count": 1
+    },
+    {
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "count": 1
+    },
+    {
+      "slug": "you-com",
+      "name": "You.com",
+      "count": 1
+    }
+  ],
+  "audiences": [
+    {
+      "slug": "entrepreneurs",
+      "name": "Entrepreneurs",
+      "count": 3393
+    },
+    {
+      "slug": "business-owners",
+      "name": "Business Owners",
+      "count": 3287
+    },
+    {
+      "slug": "marketers",
+      "name": "Marketers",
+      "count": 2833
+    },
+    {
+      "slug": "consultants",
+      "name": "Consultants",
+      "count": 2553
+    },
+    {
+      "slug": "solopreneurs",
+      "name": "Solopreneurs",
+      "count": 2011
+    },
+    {
+      "slug": "agencies",
+      "name": "Agencies",
+      "count": 1785
+    },
+    {
+      "slug": "content-creators",
+      "name": "Content Creators",
+      "count": 1639
+    },
+    {
+      "slug": "students",
+      "name": "Students",
+      "count": 1029
+    },
+    {
+      "slug": "designers",
+      "name": "Designers",
+      "count": 874
+    },
+    {
+      "slug": "coaches",
+      "name": "Coaches",
+      "count": 798
+    },
+    {
+      "slug": "freelancers",
+      "name": "Freelancers",
+      "count": 766
+    },
+    {
+      "slug": "developers",
+      "name": "Developers",
+      "count": 742
+    },
+    {
+      "slug": "teachers",
+      "name": "Teachers",
+      "count": 685
+    },
+    {
+      "slug": "ecommerce-sellers",
+      "name": "Ecommerce Sellers",
+      "count": 636
+    },
+    {
+      "slug": "copywriters",
+      "name": "Copywriters",
+      "count": 518
+    },
+    {
+      "slug": "ai-engineers",
+      "name": "AI Engineers",
+      "count": 435
+    },
+    {
+      "slug": "photographers",
+      "name": "Photographers",
+      "count": 421
+    },
+    {
+      "slug": "recruiters",
+      "name": "Recruiters",
+      "count": 361
+    },
+    {
+      "slug": "real-estate-agents",
+      "name": "Real Estate Agents",
+      "count": 214
+    },
+    {
+      "slug": "sales-teams",
+      "name": "Sales Teams",
+      "count": 206
+    },
+    {
+      "slug": "lawyers",
+      "name": "Lawyers",
+      "count": 189
+    },
+    {
+      "slug": "virtual-assistants",
+      "name": "Virtual Assistants",
+      "count": 173
+    },
+    {
+      "slug": "accountants",
+      "name": "Accountants",
+      "count": 147
+    },
+    {
+      "slug": "traders",
+      "name": "Traders",
+      "count": 93
+    },
+    {
+      "slug": "doctors",
+      "name": "Doctors",
+      "count": 12
+    }
+  ],
+  "outputTypes": [
+    {
+      "slug": "text",
+      "name": "Text",
+      "count": 5654
+    },
+    {
+      "slug": "image",
+      "name": "Image",
+      "count": 743
+    },
+    {
+      "slug": "code",
+      "name": "Code",
+      "count": 236
+    },
+    {
+      "slug": "presentation",
+      "name": "Presentation",
+      "count": 1
+    }
+  ]
+}

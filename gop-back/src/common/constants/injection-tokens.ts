@@ -1,0 +1,3 @@
+export const INJECTION_TOKENS = {
+	STRIPE_CLIENT: Symbol('STRIPE_CLIENT'),
+};

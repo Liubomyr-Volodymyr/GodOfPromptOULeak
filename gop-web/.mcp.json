@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "stitch": {
+      "command": "npx",
+      "args": [
+        "@_davideast/stitch-mcp",
+        "proxy"
+      ]
+    }
+  }
+}

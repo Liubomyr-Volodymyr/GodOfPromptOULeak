@@ -1,0 +1,50 @@
+services:
+  db:
+    image: postgres
+    env_file: .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT}:5432"
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "${REDIS_PORT}:6379"
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    ports:
+      - "${GOTENBERG_PORT}:3000"
+    command:
+      - "gotenberg"
+      - "--log-level=error"
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    ports:
+      - "${MLFLOW_PORT}:${MLFLOW_PORT}"
+    environment:
+      - MLFLOW_PORT=${MLFLOW_PORT}
+      - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI}
+      - MLFLOW_FLASK_SERVER_SECRET_KEY=${MLFLOW_SECRET_KEY}
+    command: >
+      bash -c "pip install psycopg2-binary flask-wtf &&
+      mlflow server 
+      --backend-store-uri sqlite:///mlflow.db 
+      --default-artifact-root ./mlruns 
+      --host 0.0.0.0 
+      --port ${MLFLOW_PORT}
+      --serve-artifacts"
+    volumes:
+      - mlflow_data:/mlflow
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    environment:
+      - QDRANT__SERVICE__API_KEY=${QDRANT_API_KEY}
+    volumes:
+      - qdrant_data:/qdrant/storage
+volumes:
+  postgres_data:
+  mlflow_data:
+  qdrant_data:

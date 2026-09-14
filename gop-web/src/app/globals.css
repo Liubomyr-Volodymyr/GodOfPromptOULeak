@@ -1,0 +1,491 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: var(--font-roboto-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  --font-heading: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* ─────────────────────────────────────────────────────────────────────
+     GOP BRAND TOKENS — ported from gop-web-temp/src/styles/tokens.css.
+     Tailwind generates utility classes from each entry (bg-gop-gold,
+     text-gop-ink-muted, rounded-gop-lg, …). Extend by editing this
+     block, never inline raw hex/px values in component classes.
+     ───────────────────────────────────────────────────────────────────── */
+
+  /* color: surfaces & ink */
+  --color-gop-page:           #f5f5f5;
+  --color-gop-surface:        #ffffff;
+  --color-gop-surface-alt:    #fafafa;
+  --color-gop-ink:            #161415;
+  --color-gop-ink-muted:      rgba(22, 20, 21, 0.65);
+  --color-gop-ink-soft:       rgba(22, 20, 21, 0.45);
+  --color-gop-ink-faint:      rgba(22, 20, 21, 0.18);
+  --color-gop-ink-hairline:   rgba(22, 20, 21, 0.08);
+  --color-gop-ink-edge:       rgba(22, 20, 21, 0.06);
+
+  /* color: brand gold */
+  --color-gop-gold:           #fdc302;
+  --color-gop-gold-light:     #ffd83a;
+  --color-gop-gold-dark:      #b88800;
+  --color-gop-gold-tint:      rgba(253, 195, 2, 0.18);
+
+  /* color: secondary surfaces */
+  --color-gop-dark:           #2d2b2c;
+  --color-gop-dark-hover:     #292728;
+  --color-gop-surface-3:      #434142;
+  --color-gop-ink-deeper:     #100f0f;
+  --color-gop-divider:        #eeeeee;
+  --color-gop-mute:           #7f7f7f;
+  --color-gop-mute-2:         #8a8a8a;
+  --color-gop-mute-3:         #bebdbe;
+
+  /* color: accent + dark-glass (Figma 1072-5038 prompt panel) */
+  --color-gop-accent-yellow:    #fcd94a;
+  --color-gop-glass-bg:         rgba(255, 255, 255, 0.04);
+  --color-gop-glass-bg-2:       rgba(255, 255, 255, 0.12);
+  --color-gop-glass-stroke:     rgba(255, 255, 255, 0.04);
+  --color-gop-glass-stroke-2:   rgba(255, 255, 255, 0.24);
+
+  /* color: model brands (Figma 568-1195 + library coding tools) */
+  --color-gop-model-chatgpt:     #4da770;
+  --color-gop-model-claude:      #d97858;
+  --color-gop-model-claude-code: #b6553d;
+  --color-gop-model-cursor:      #1f1f1f;
+  --color-gop-model-deepseek:    #4d6bfe;
+  --color-gop-model-gemini-from: #f94342;
+  --color-gop-model-gemini-to:   #3789ff;
+  --color-gop-model-grok:        #000000;
+  --color-gop-model-midjourney:  #344163;
+  --color-gop-model-nano-banana: #ebc519;
+  --color-gop-model-notebooklm:  #1a73e8;
+  --color-gop-model-qwen:        #615ced;
+  --color-gop-model-windsurf:    #00b4d8;
+
+  /* color: inverse (on dark surfaces) */
+  --color-gop-on-dark:       rgba(255, 255, 255, 1);
+  --color-gop-on-dark-muted: rgba(255, 255, 255, 0.7);
+  --color-gop-on-dark-soft:  rgba(255, 255, 255, 0.5);
+  --color-gop-on-dark-edge:  rgba(255, 255, 255, 0.06);
+
+  /* color: menu / command-palette (Figma 554-1425) — the dark dropdown
+   * + cmd-K palette surface. Hover text + active icon are brand yellow. */
+  --color-gop-menu-bg:        #141414;  /* context_menu-bg */
+  --color-gop-menu-item:      #f7f7f7;  /* item/text-primary */
+  --color-gop-menu-item-2:    #a8a7a8;  /* item/text-secondary (subtitles) */
+  --color-gop-menu-hover:     #fcd94a;  /* item/text-hover + icon/active */
+  --color-gop-menu-icon:      #8f8e8f;  /* semantic/icon/tertiary */
+  --color-gop-menu-avatar-bg: #242223;  /* avatar/bg-regular + button bg */
+  --color-gop-card:           #242223;  /* dark prompt-card / CTA-panel surface */
+  --color-gop-capsule:        #eaeaea;  /* library filter-capsule fill */
+
+  /* ─────────────────────────────────────────────────────────────────────
+     Typography — Figma 516-341 "x-gop-design-system/Typography".
+     Compound tokens: each `--text-gop-*` carries size + line-height +
+     letter-spacing + weight in one entry, so `text-gop-h1` (Tailwind v4
+     utility) writes all four properties from a single class.
+
+     Categories:
+       headings   h1 … h7   (Bold,    96 → 32 px)
+       subtitles  lg / base / sm   (SemiBold / Medium, 28 → 20 px)
+       body       lg / base / sm   (Regular, 18 → 14 px)
+       caption    base      (Regular, 12 px, +0.2 tracking)
+       code       base      (Roboto Mono, 16 px)
+
+     Tight tracking is size-coupled — bigger size → tighter spacing.
+     Body is always 0; caption only has positive tracking (+0.2). */
+
+  /* H1 — display */
+  --text-gop-h1:                 96px;
+  --text-gop-h1--line-height:    112px;
+  --text-gop-h1--letter-spacing: -4px;
+  --text-gop-h1--font-weight:    700;
+
+  --text-gop-h2:                 80px;
+  --text-gop-h2--line-height:    96px;
+  --text-gop-h2--letter-spacing: -3px;
+  --text-gop-h2--font-weight:    700;
+
+  --text-gop-h3:                 64px;
+  --text-gop-h3--line-height:    80px;
+  --text-gop-h3--letter-spacing: -2px;
+  --text-gop-h3--font-weight:    700;
+
+  --text-gop-h4:                 56px;
+  --text-gop-h4--line-height:    72px;
+  --text-gop-h4--letter-spacing: -1.5px;
+  --text-gop-h4--font-weight:    700;
+
+  --text-gop-h5:                 48px;
+  --text-gop-h5--line-height:    56px;
+  --text-gop-h5--letter-spacing: -1px;
+  --text-gop-h5--font-weight:    700;
+
+  --text-gop-h6:                 40px;
+  --text-gop-h6--line-height:    48px;
+  --text-gop-h6--letter-spacing: -0.5px;
+  --text-gop-h6--font-weight:    700;
+
+  --text-gop-h7:                 32px;
+  --text-gop-h7--line-height:    40px;
+  --text-gop-h7--letter-spacing: -0.5px;
+  --text-gop-h7--font-weight:    700;
+
+  /* Subtitles — heading-like but lighter (SemiBold / Medium) */
+  --text-gop-subtitle-lg:                 28px;
+  --text-gop-subtitle-lg--line-height:    32px;
+  --text-gop-subtitle-lg--letter-spacing: -0.5px;
+  --text-gop-subtitle-lg--font-weight:    600;
+
+  --text-gop-subtitle:                 24px;
+  --text-gop-subtitle--line-height:    28px;
+  --text-gop-subtitle--letter-spacing: -0.5px;
+  --text-gop-subtitle--font-weight:    500;
+
+  --text-gop-subtitle-sm:                 20px;
+  --text-gop-subtitle-sm--line-height:    24px;
+  --text-gop-subtitle-sm--letter-spacing: -0.5px;
+  --text-gop-subtitle-sm--font-weight:    500;
+
+  /* Body — Regular, 0 tracking */
+  --text-gop-body-lg:                 18px;
+  --text-gop-body-lg--line-height:    28px;
+  --text-gop-body-lg--letter-spacing: 0;
+  --text-gop-body-lg--font-weight:    400;
+
+  --text-gop-body:                 16px;
+  --text-gop-body--line-height:    24px;
+  --text-gop-body--letter-spacing: 0;
+  --text-gop-body--font-weight:    400;
+
+  --text-gop-body-sm:                 14px;
+  --text-gop-body-sm--line-height:    20px;
+  --text-gop-body-sm--letter-spacing: 0;
+  --text-gop-body-sm--font-weight:    400;
+
+  /* Caption — small + positive tracking */
+  --text-gop-caption:                 12px;
+  --text-gop-caption--line-height:    16px;
+  --text-gop-caption--letter-spacing: 0.2px;
+  --text-gop-caption--font-weight:    400;
+
+  /* Code — Roboto Mono at body size */
+  --text-gop-code:                 16px;
+  --text-gop-code--line-height:    24px;
+  --text-gop-code--letter-spacing: 0;
+  --text-gop-code--font-weight:    400;
+  --text-gop-code--font-family:    var(--font-roboto-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* spacing (4px grid) */
+  --spacing-gop-1:    4px;
+  --spacing-gop-2:    8px;
+  --spacing-gop-3:   12px;
+  --spacing-gop-4:   16px;
+  --spacing-gop-5:   20px;
+  --spacing-gop-6:   24px;
+  --spacing-gop-7:   32px;
+  --spacing-gop-8:   40px;
+  --spacing-gop-9:   48px;
+  --spacing-gop-10:  64px;
+  --spacing-gop-11:  80px;
+  --spacing-gop-12:  96px;
+  --spacing-gop-13: 120px;
+
+  /* radii */
+  --radius-gop-xs:     6px;
+  --radius-gop-sm:     8px;
+  --radius-gop-md:    12px;
+  --radius-gop-lg:    18px;
+  --radius-gop-xl:    24px;
+  --radius-gop-2xl:   28px;
+  --radius-gop-pill: 999px;
+
+  /* shadows */
+  --shadow-gop-xs:   0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-gop-sm:   0 2px 6px rgba(0, 0, 0, 0.04);
+  --shadow-gop-md:   0 6px 18px rgba(0, 0, 0, 0.04);
+  --shadow-gop-lg:   0 12px 32px rgba(0, 0, 0, 0.08);
+  --shadow-gop-glow: 0 8px 28px rgba(253, 195, 2, 0.28);
+}
+
+:root {
+  /* ── shadcn slots — mapped to GOP palette ─────────────────────────
+   * `bg-primary` on shadcn components reads as GOP ink (the dark
+   * filled pill is the canonical primary CTA). Gold is reserved for
+   * "premium" CTAs and lives at bg-gop-gold (a separate utility, not
+   * the shadcn primary). */
+  --background: #f5f5f5;                                 /* gop-page */
+  --foreground: #161415;                                 /* gop-ink */
+  --card: #ffffff;                                       /* gop-surface */
+  --card-foreground: #161415;
+  --popover: #ffffff;
+  --popover-foreground: #161415;
+  --primary: #161415;                                    /* gop-ink — dark pill */
+  --primary-foreground: #ffffff;
+  --secondary: #fafafa;                                  /* gop-surface-alt */
+  --secondary-foreground: #161415;
+  --muted: #f5f5f5;
+  --muted-foreground: rgba(22, 20, 21, 0.65);            /* gop-ink-muted */
+  --accent: #fcd94a;                                     /* gop-accent-yellow */
+  --accent-foreground: #161415;
+  --destructive: #dc2626;                                /* gop-error */
+  --border: rgba(22, 20, 21, 0.08);                      /* gop-ink-hairline */
+  --input: rgba(22, 20, 21, 0.08);
+  --ring: #fcd94a;                                       /* gop-accent-yellow */
+  --chart-1: #fdc302;
+  --chart-2: #4da770;
+  --chart-3: #d97858;
+  --chart-4: #4d6bfe;
+  --chart-5: #615ced;
+  --radius: 0.625rem;                                    /* 10px base — shadcn primitives */
+  --sidebar: #ffffff;
+  --sidebar-foreground: #161415;
+  --sidebar-primary: #161415;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5f5f5;
+  --sidebar-accent-foreground: #161415;
+  --sidebar-border: rgba(22, 20, 21, 0.08);
+  --sidebar-ring: #fcd94a;
+
+  /* ── GOP utility vars (gradient, motion, layout, z-scale) ─────────
+   * Not consumed by Tailwind @theme — these are vars components reach
+   * for in custom CSS (gradients, transition shorthands). */
+  --gop-gradient-gold: linear-gradient(to top, #fdc302 0%, #ffd83a 100%);
+
+  --gop-motion-fast: 120ms;
+  --gop-motion-base: 200ms;
+  --gop-motion-slow: 320ms;
+  --gop-ease-standard:   cubic-bezier(0.4, 0, 0.2, 1);
+  --gop-ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  --gop-ease-spring:     cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --gop-container-narrow: 720px;
+  --gop-container-base:  1100px;
+  --gop-container-wide:  1280px;
+  --gop-navbar-height:    72px;
+
+  --gop-z-base:      1;
+  --gop-z-raised:   10;
+  --gop-z-sticky:   20;
+  --gop-z-dropdown: 30;
+  --gop-z-overlay:  40;
+  --gop-z-modal:    50;
+  --gop-z-toast:    60;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* =========================================================================
+   Dark-surface scope. Apply `.gop-on-dark` to a section to flip ink →
+   on-dark tokens without rewriting every nested rule.
+   ========================================================================= */
+.gop-on-dark {
+  color: var(--color-gop-on-dark);
+}
+.gop-on-dark p,
+.gop-on-dark li {
+  color: var(--color-gop-on-dark-muted);
+}
+
+/* =========================================================================
+   .prose-hub — typography for server-rendered editorial HTML (the
+   /prompt-library hub's intro_html, body_sections_html, FAQ answers).
+   The HTML comes from the SEO JSON verbatim, so the styling lives here
+   rather than inline. Light-surface prose (dark ink on the page bg).
+   ========================================================================= */
+.prose-hub {
+  color: var(--color-gop-ink-muted);
+  font-size: var(--text-gop-body);
+  line-height: 1.65;
+}
+.prose-hub > * + * { margin-top: 1rem; }
+.prose-hub h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: var(--text-gop-h6);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-gop-ink);
+}
+@media (max-width: 900px) {
+  .prose-hub h2 { font-size: var(--text-gop-h7); }
+}
+.prose-hub h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-gop-subtitle-sm);
+  font-weight: 600;
+  color: var(--color-gop-ink);
+}
+.prose-hub p { margin: 0; color: var(--color-gop-ink-muted); }
+.prose-hub strong { color: var(--color-gop-ink); font-weight: 600; }
+.prose-hub a {
+  color: var(--color-gop-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--color-gop-ink-faint);
+  transition: text-decoration-color var(--gop-motion-fast) var(--gop-ease-standard);
+}
+.prose-hub a:hover { text-decoration-color: var(--color-gop-gold); }
+.prose-hub ul,
+.prose-hub ol { margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.prose-hub ul { list-style: none; padding-left: 1.25rem; }
+.prose-hub ul > li { position: relative; padding-left: 1.25rem; }
+.prose-hub ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.25rem;
+  top: 0.7em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-gop-ink-soft);
+}
+.prose-hub ol { list-style: decimal; padding-left: 1.5rem; }
+.prose-hub li { color: var(--color-gop-ink); }
+
+/* =========================================================================
+   Reduced motion — collapse motion tokens to near-zero so transitions
+   defined via var(--gop-motion-*) respect user preference globally.
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --gop-motion-fast: 1ms;
+    --gop-motion-base: 1ms;
+    --gop-motion-slow: 1ms;
+  }
+}
+
+/* ContextMenu entrance — slight rise + fade (DS dropdown). */
+@keyframes gop-menu-in {
+  from { opacity: 0; transform: translateY(-4px) scale(0.985); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="gop-menu-in"] { animation: none !important; }
+}
+
+/* =========================================================================
+   Prompt-generator wait animation (PromptGenLoader) — mascot in a pulsing
+   gold halo, floating, with bouncing dots. Keyframes live here so the loader
+   can reference them via Tailwind arbitrary `animate-[…]` utilities.
+   ========================================================================= */
+@keyframes pg-panel-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes pg-halo {
+  0%   { transform: scale(0.4); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: scale(1.15); opacity: 0; }
+}
+@keyframes pg-float {
+  0%, 100% { transform: translateY(-4px) rotate(-2deg); }
+  50%      { transform: translateY(4px) rotate(2deg); }
+}
+@keyframes pg-dot {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.35; }
+  40%           { transform: translateY(-5px); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="pg-halo"], [class*="pg-float"], [class*="pg-dot"] { animation: none !important; }
+}
+
+/* Card entrance — appended infinite-scroll cards fade + rise into place so a
+   lagging batch glides in instead of popping. Initial SSR cards don't get it. */
+@keyframes gop-card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="gop-card-in"] { animation: none !important; }
+}

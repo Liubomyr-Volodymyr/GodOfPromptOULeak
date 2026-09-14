@@ -1,0 +1,122 @@
+<mjml>
+	<mj-head>
+		<mj-style>
+			.prompt-box {
+				background-color: #e3e3e3;
+				border-radius: 14px;
+			}
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#171717">
+		<mj-section>
+			<mj-column width="100px">
+				<mj-image src="https://cdn.prod.website-files.com/64808cc9f88d76f4355b870a/6697be912d684c374a7c83fd_God%20Mascot%20Face.avif" width="100px" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#ffffff" border-radius="14px 14px 0 0" padding="20px">
+			<mj-column>
+				<mj-text font-size="30px" color="#333333" line-height="35px" font-weight="bold" align="center" padding="25px"> 🪄Your Custom Prompt Is Ready!</mj-text>
+
+				<mj-text font-size="16px" color="#333333" line-height="20px" padding-bottom="0px">
+					Greetings from above,
+				</mj-text>
+
+				<mj-text font-size="16px" color="#333333" line-height="20px" padding-bottom="0px">
+					I've just finished cooking your prompt and the full guide is ready. <br><br> Copy the prompt below:
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" padding="0 20px">
+			<mj-column>
+				<mj-text css-class="prompt-box" padding="22px">
+					{{{prompt}}}
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" padding="0 20px">
+			<mj-column>
+				<mj-text font-size="16px" color="#333333" line-height="20px">Get your full guide:</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" padding="0">
+			<mj-column>
+				<mj-text align="left">
+					<a
+						href="{{pdfPublicUrl}}"
+						style="
+							display:inline-block;
+							background:#000;
+							color:#fff;
+							padding:10px 30px;
+							text-decoration:none;
+							border-radius:10px;
+							font-weight:700;margin:0 10px;
+						"
+					>
+						Download PDF
+					</a>
+					<a
+						href="{{csvPublicUrl}}"
+						style="
+							display:inline-block;
+							background:#000;
+							color:#fff;
+							padding:10px 30px;
+							text-decoration:none;
+							border-radius:10px;
+							font-weight:700;margin:0 10px;
+						"
+					>
+						Download CSV
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" padding="0 20px">
+			<mj-column>
+				<mj-text font-size="16px" color="#333333" line-height="20px">Solve more tasks with AI:</mj-text>
+				<mj-button
+					inner-padding="10px 50px"
+					background-color="#fcc201"
+					color="#171717"
+					font-size="16px"
+					font-weight="700"
+					href="{{formLink}}"
+					border-radius="10px"
+					align="left"
+				>
+					Generate New Prompt
+				</mj-button>
+
+				<mj-spacer height="20px" />
+
+				<mj-text font-size="16px" color="#333333" line-height="20px">
+					Contact us if you have any questions or concerns:
+					<b>{{email}}</b>
+				</mj-text>
+
+				<mj-text font-size="16px" line-height="10px">
+					Keep innovating, </mj-text>
+				<mj-text font-weight="bold" font-size="16px"> 🔑 God of Prompt </mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#ffffff" border-radius="0 0 14px 14px">
+			<mj-column>
+				<mj-spacer height="20px" />
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+			<mj-column>
+				<mj-text font-size="12px" color="#999999" align="center">
+					Copyright &copy; {{year}} God of Prompt. All rights reserved
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

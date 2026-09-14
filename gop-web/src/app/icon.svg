@@ -1,0 +1,76 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  preserveAspectRatio="xMidYMid meet"
+  role="img"
+  aria-label="God of Prompt"
+>
+  <style>
+    #prompt-chevron {
+      animation: chevron-blink 3.6s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    #prompt-outline {
+      animation: outline-pulse 3.6s ease-in-out infinite;
+    }
+
+    @keyframes chevron-blink {
+      0%, 48%, 64%, 75%, 100% { transform: scaleY(1); }
+      54%, 69% { transform: scaleY(.06); }
+    }
+
+    @keyframes outline-pulse {
+      0%, 48%, 64%, 75%, 100% { opacity: .72; }
+      54%, 69% { opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #prompt-chevron,
+      #prompt-outline {
+        animation: none;
+      }
+    }
+  </style>
+
+  <rect width="64" height="64" rx="14" fill="#2D2B2C"/>
+  <!-- Outline geometry is derived from the stroke width, not hardcoded: SVG
+       strokes straddle the path, so half of it sits OUTSIDE the rect. At
+       width 3.5 the inset must be 1.75 (and the radius 14 - 1.75) or the ring
+       is clipped flat by the viewBox on all four sides. -->
+  <rect
+    id="prompt-outline"
+    x="1.75"
+    y="1.75"
+    width="60.5"
+    height="60.5"
+    rx="12.25"
+    fill="none"
+    stroke="#DEDDDE"
+    stroke-width="3.5"
+    opacity=".72"
+  />
+
+  <g transform="translate(2 2) scale(1.36)">
+    <path
+      id="prompt-chevron"
+      d="M20.6085 22L10.5892 28L9 25.4079L14.6908 21.9999L9 18.592L10.5892 16L20.6085 22Z"
+      fill="url(#gop-gold)"
+    />
+    <path
+      id="prompt-cursor"
+      d="M35 20.0701V23.1009H24.5131V20.0701H35Z"
+      fill="url(#gop-gold)"
+    />
+  </g>
+
+  <defs>
+    <linearGradient id="gop-gold" x1="22" y1="28" x2="22" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#FDC302"/>
+      <stop offset="1" stop-color="#ECDF5F"/>
+    </linearGradient>
+  </defs>
+</svg>
